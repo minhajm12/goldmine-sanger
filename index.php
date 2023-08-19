@@ -16,89 +16,13 @@
 
 <body>
 
-    <div id="top-header" class="top-header">
-        <div class="container">
-            <div class="top-items">
-                <div class="left">
-                    <div>
-                        <i class="fa-solid fa-envelope"></i>
-                        <p>info@goldminesanger.com</p>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-phone"></i>
-                        <p>+971 50 504 3988</p>
-                    </div>
-                </div>
-                <div class="right">
-                    <a href="">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                    <a href="">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
-                    <a href="">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
 
+    <!-- Header Section -->
 
-    <header class="header" id="header">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="Assets/img/logo/logo-main.png" width="100%" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon">
-                        <!-- <i class="fa-solid fa-bars"></i> -->
-                        <img src="assets/img/bars.png" alt="" width="100%">
-                    </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Operation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sustainability</a>
-                        </li>
-                        <li class="nav-item nav-contact">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li> -->
-                    </ul>
-                    <!-- <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form> -->
-                </div>
-            </div>
-        </nav>
-    </header>
+    <?php include 'inc/header.php'; ?>
+
+    <!-- End Header Section -->
+
 
 
 
@@ -107,26 +31,8 @@
     <!-- Banner Section -->
 
     <section id="banner">
-        <div class="banner-slider owl-carousel">
-            <div class="banner-item banner-item-1">
-                <div class="container">
-                    <div class="banner-content">
-                        <h1>Extending <br>Long-Term Value</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        <a href="#" class="banner-btn">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="banner-item banner-item-2">
-                <div class="container">
-                    <div class="banner-content">
-                        <h1>Extending <br>Long-Term Value</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        <a href="#" class="banner-btn">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="banner-item banner-item-3">
+        <div class="banner-slider">
+            <div class="banner-item">
                 <video class="video-bg" autoplay muted loop>
                     <source src="assets/img/video/bg-video-1.mp4" type="video/mp4">
                 </video>
@@ -447,81 +353,12 @@
 
     <!-- Footer Section -->
 
-    <section id="footersection">
-        <div class="footer-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3 foot-1">
-                        <div class="footer-brand">
-                            <img src="assets/img/logo/footer-logo.png" alt="">
-                        </div>
-                        <p class="text-white">Learn about opportunities to join our dynamic, high performance culture, and hear what employees say about working at Kinross.</p>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 foot-2">
-                        <h3>QUICK LINKS</h3>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Operations</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Sustainability</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 foot-3">
-                        <h3>USEFULL LINKS</h3>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Investors</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Blogs / News</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Career</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3 foot-4">
-                        <h3>MORE INFO</h3>
-                        <div class="contact">
-                            <div class="align-items-start">
-                                <i class="fa-solid fa-location-dot"></i>
-                                <p class="w-100">Al Khabeesi Office 212 - 1, Abdulrahman Hassan Building, Dubai, UAE, P.O Box 215484</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-envelope"></i>
-                                <p>info@goldminesanger.com</p>
-                            </div>
-                            <div class="align-item-center" style="align-items:center;">
-                                <i class="fa-solid fa-phone"></i>
-                                <p class="cntct-nmbr" style="font-weight:700;">+971 50 504 3988</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright">
-            <div class="container">
-                <p>Copyright © 2023 Goldmine Sanger. All Rights Reserved | Designed by <span>Hada Digitals.</span></p>
-            </div>
-        </div>
-    </section>
+    <?php include 'inc/footer.php'; ?>
 
     <!-- End Footer Section -->
+
+
+    
 
 
 

@@ -15,7 +15,7 @@
 
 h1,h2,h3,h4,h5,h6, p
 {
-    color:#000;
+    color:#636363;
     margin: 0 !important;
 }
 body
@@ -176,8 +176,10 @@ body
     height: 85vh;
     display: flex;
     align-items: center;
+    /* width: 100%; */
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5690651260504201) 26%, rgba(0,0,0,0) 59%);
 }
-#banner .banner-item-1
+/* #banner .banner-item-1
 {
     width: 100%;
     background:url('../img/Banner/banner-2.jpg');
@@ -193,18 +195,12 @@ body
     background-repeat: no-repeat;
     background-position: top;
     
-}
-#banner .banner-item-3
-{
-    width: 100%;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5690651260504201) 26%, rgba(0,0,0,0) 59%);
-    
-}
+} */
 #banner .video-bg
 {
     object-fit: cover;
     height: 85vh;
-    width: 100vw;
+    width: 99vw;
     position: absolute;
     z-index: -1;
 }
@@ -995,7 +991,15 @@ body
 
 
 
-
+    #header .navbar .navbar-brand
+    {
+        width: 25%;
+    }
+    #banner .video-bg
+    {
+        height: 65vh;
+        width: 100vw;
+    }
     #banner .banner-item .banner-content p
     {
         width: 80%;
@@ -1062,7 +1066,7 @@ body
     }
     #cta-section .right
     {
-        padding: 80px 0 80px 230px;
+        padding: 60px 0 60px 230px;
     }
 
 
@@ -1133,10 +1137,14 @@ body
 
 
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 720px)
 {
 
 
+    #banner .video-bg
+    {
+        height: 70vh;
+    }
     #banner .banner-item
     {
         height: 70vh;
@@ -1158,7 +1166,7 @@ body
     #banner .banner-item .banner-content
     {
         padding-left: 20px;
-        margin-top:140px;
+        margin-top:100px;
     }
     #banner .bottom-gold
     {
@@ -1170,14 +1178,15 @@ body
         margin: 0;
         padding:20px 10px;
         background: #ffffff20;
+        border-radius: 10px;
     }
     #banner .bottom-gold .gold-updates .col-4
     {
-        padding:0 6px !important;
+        padding:0 !important;
     }
     #banner .bottom-gold .gold-updates h2
     {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 700;
     }
     #banner .bottom-gold .gold-updates .details
@@ -1188,7 +1197,7 @@ body
     }
     #banner .bottom-gold .gold-updates .details p
     {
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 400;
     }
     #header .navbar .navbar-brand
@@ -1208,7 +1217,7 @@ body
     }
     .scnd-head
     {
-        font-size: 32px;
+        font-size: 30px;
     }
     .main-head
     {
@@ -1278,11 +1287,15 @@ body
     {
         font-size: 14px;
         line-height: 18px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
     }
     #projectsection .projects .project-items .contents
     {
         gap:5px;
-        padding:20px;
+        padding:80px 20px 20px 20px;
     }
 
 
@@ -1367,5 +1380,353 @@ body
     {
         padding:40px 30px;
         gap:20px;
+    }
+    #careersection .right .image-div .img-2,#careersection .right .image-div
+    {
+        padding:30px;
+    }
+
+
+    #footersection .footer-bg
+    {
+        padding:40px 0;
+    }
+    #footersection .foot-2, #footersection .foot-3
+    {
+        padding: 60px 0 0 40px;
+    }
+    #footersection .foot-4
+    {
+        padding: 60px 0 0 40px;
+    }
+    #footersection .foot-4 .contact .footer-addrs
+    {
+        width: 90%;
+    }
+    #footersection .copyright p
+    {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ABOUT PAGE CSS */
+
+.about-page-banner
+{
+    background: url(../img/Banner/banner-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+.about-page-banner .banner-cont
+{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.about-page-banner .banner-cont h1
+{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+
+
+#about-contents
+{
+    padding: 8% 0 0% 0;
+}
+#about-contents .aboutcont
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#about-contents .aboutcont span
+{
+    color: #E8A917;
+}
+#about-contents .aboutcont h1
+{
+    font-size: 50px;
+    font-weight: 600;
+}
+#about-contents .aboutcont p
+{
+    margin-top:40px !important;
+    line-height: 28px;
+}
+
+
+
+
+#teamsection .item-card
+{
+    padding:80px;
+    text-align: center;
+}
+#teamsection .item-card .card-cont h2
+{
+    margin-top:20px !important;
+    font-weight: 700;
+    font-size: 26px !important;
+}
+#teamsection .item-card .card-cont p
+{
+    font-size: 18px;
+    color:#C88D0A;
+} 
+#teamsection .item-card .card-cont .details
+{
+    padding:4px 0;
+    background: #E8A917;
+    margin:10px 80px;
+    border-radius: 10px;
+}
+#teamsection .item-card .card-cont .details p
+{
+    color:#fff;
+    font-size: 16px;
+}
+#teamsection .item-card .card-cont .details .card-num
+{
+    font-weight: 700;
+    font-size: 18px;
+}
+#teamsection .item-card img
+{
+    width: 70%;
+}
+
+
+
+
+
+
+
+#about-page-cta
+{
+    padding:4% 0
+}
+#about-page-cta #cta-section
+{
+    border-radius: 30px;
+    background-position:center !important;
+}
+
+
+
+
+
+
+#philosophysection
+{
+    padding:4% 0;
+}
+#philosophysection h1
+{
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 42px;
+}
+#philosophysection .first-row, #philosophysection .scnd-row
+{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+#philosophysection .scnd-row
+{
+    margin-top: 30px !important;
+}
+#philosophysection .first-row .left, #philosophysection .scnd-row .left
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 80px;
+}
+#philosophysection .scnd-row
+{
+    flex-direction: row-reverse;
+}
+#philosophysection img
+{
+    width: 100%;
+}
+#philosophysection .first-row .left .phil-img-1
+{
+    transition: .3s ease;
+}
+#philosophysection .scnd-row .left .phil-img-1
+{
+    transition: .3s ease;
+}
+#philosophysection .first-row .left:hover .phil-img-1
+{
+    transform: scale(1.1);
+}
+#philosophysection .scnd-row .left:hover .phil-img-1
+{
+    transform: scale(1.1);
+}
+#philosophysection .first-row .left .phil-img-2,
+#philosophysection .scnd-row .left .phil-img-2
+{
+    position: absolute;
+    padding:80px;
+    z-index: -1;
+    animation: stroke-rotation 8s linear infinite ;
+}
+#philosophysection .first-row .right h2
+{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+@keyframes stroke-rotation
+{
+    0%
+    {
+        transform: rotate(0);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+#scndctasection
+{
+    padding:4% 0;
+}
+#scndctasection .scnd-cta-sec
+{
+    background: url(../img/about-page/scnd-cta.png);
+    background-size: cover;
+    background-position: center;
+    padding:60px;
+    border-radius: 30px;
+}
+#scndctasection h1
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 34px;
+}
+#scndctasection p
+{
+    color:#fff;
+}
+#scndctasection .left
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+#scndctasection .left .cta-btn
+{
+    padding:10px 30px;
+    background: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #000;
+    width: fit-content;
+    transition: .3s ease;
+}
+#scndctasection .left .cta-btn:hover
+{
+    background: #E8A917;
+    color: #fff;
+}
+
+.about-head-break
+{
+    display: none;
+}
+
+
+
+
+
+@media only screen and (max-width: 992px)
+{
+    #about-contents .aboutcont h1
+    {
+        font-size: 34px;
+    }
+    .about-head-break
+    {
+        display: block;
+    }
+    #about-contents .aboutcont p
+    {
+        line-height: 24px;
+        margin-top: 30px !important;
+    }
+    #teamsection .item-card
+    {
+        padding:20px 60px;
+    }
+    #teamsection .row
+    {
+        margin-top:40px;
     }
 }
