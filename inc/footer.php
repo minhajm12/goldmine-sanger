@@ -1,6 +1,6 @@
 <!-- Footer Section -->
 
-<section id="footersection">
+<section id="footersection" class="panel">
         <div class="footer-bg">
             <div class="container">
                 <div class="row">

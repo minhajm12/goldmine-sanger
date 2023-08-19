@@ -18,6 +18,10 @@ h1,h2,h3,h4,h5,h6, p
     color:#636363;
     margin: 0 !important;
 }
+p
+{
+    font-weight: 300 !important;
+}
 body
 {
     /* overflow: hidden;    */
@@ -837,8 +841,8 @@ body
 
 #footersection
 {
-    padding:4% 0 0 0;
-    /* background:#000; */
+    padding:6% 0 0 0;
+    background:#fff;
     color:#fff;
     /* position: relative; */
 }
@@ -970,6 +974,11 @@ body
     font-size: 26px;
 
 }
+.navbar-toggler:focus
+{
+    box-shadow: none !important;
+    border: none !important;
+}
 
 
 
@@ -1066,7 +1075,8 @@ body
     }
     #cta-section .right
     {
-        padding: 60px 0 60px 230px;
+        align-items: center;
+        text-align: center;
     }
 
 
@@ -1577,11 +1587,11 @@ body
 {
     display: flex;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 #philosophysection .scnd-row
 {
-    margin-top: 30px !important;
+    margin-top: -50px !important;
 }
 #philosophysection .first-row .left, #philosophysection .scnd-row .left
 {
@@ -1652,7 +1662,8 @@ body
 
 #scndctasection
 {
-    padding:4% 0;
+    padding:3% 0;
+    background: #fff;
 }
 #scndctasection .scnd-cta-sec
 {
@@ -1720,6 +1731,7 @@ body
     {
         line-height: 24px;
         margin-top: 30px !important;
+        padding: 0 40px;
     }
     #teamsection .item-card
     {
@@ -1729,4 +1741,177 @@ body
     {
         margin-top:40px;
     }
+
+
+
+    #about-page-cta
+    {
+        padding:8% 0;
+    }
+
+
+
+
+    #philosophysection
+    {
+        paddinG:8% 0;
+    }
+    #philosophysection .first-row, #philosophysection .scnd-row
+    {
+        margin-top:50px;
+    }
+    #philosophysection .right
+    {
+        padding:0 40px;
+        text-align: center;
+    }
+    #philosophysection .first-row .left .phil-img-2, #philosophysection .scnd-row .left .phil-img-2
+    {
+        padding:30px;
+    }
+    #philosophysection .first-row .left, #philosophysection .scnd-row .left
+    {
+        padding:20px 40px;
+        overflow: hidden;
+    }
+    #philosophysection img
+    {
+        width: 70%;
+    }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+    #about-contents .aboutcont p
+    {
+        padding:0;
+        margin-top: 10px !important;
+    }
+    #about-contents .container
+    {
+        padding:0 30px;
+    }
+    #about-contents .aboutcont
+    {
+        text-align: left;
+    }
+
+
+
+
+    #teamsection .item-card
+    {
+        padding:20px;
+    }
+    #teamsection .item-card .card-cont .details
+    {
+        margin:10px 30px;
+    }
+    #teamsection .item-card img
+    {
+        width: 85%;
+    }
+
+
+    #about-page-cta
+    {
+        overflow: hidden;
+    }
+    #about-page-cta .container
+    {
+        padding:0;
+    }
+    #about-page-cta #cta-section
+    {
+        border-radius: 0;
+    }
+
+
+    #philosophysection img
+    {
+        width: 90%;
+    }
+    #philosophysection .right
+    {
+        text-align: left;
+        padding:0 30px
+    }
+
+
+
+    #scndctasection .scnd-cta-sec
+    {
+        padding:40px;
+    }
+    #scndctasection .left
+    {
+        padding:10px;
+    }
+    #scndctasection h1
+    {
+        font-size: 24px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#operationbanner
+{
+    background: url(../img/operations/operation-banner.png);
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+}
+
+#operationsection
+{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    background: #fff;
+}
+#operationsection h1
+{
+    font-weight: 700;
+    margin-bottom:5% !important;
+}
+#operationsection .content h2
+{
+    font-weight: 600;
+}
+#operationsection .content p
+{
+    color:#fff;
+}
+#operationsection .left
+{
+    display: flex;
+    align-items: center;
+}
+#operationsection .content
+{
+    background:#000;
+    padding: 40px;
+    color:#fff;
+    border-radius:20px;
+}
+#operationsection .right img
+{
+    border-radius: 20px;
 }

@@ -109,7 +109,7 @@
 
     <section id="philosophysection">
         <div class="container">
-            <h1>Philosophy</h1>
+            <h1>Our Philosophy</h1>
             <div class="first-row row">
                 <div class="col-12 col-lg-6 left">
                     <img src="assets/img/about-page/philosophy-1.png" alt="" class="phil-img-1">
@@ -118,6 +118,7 @@
                 <div class="col-12 col-lg-6 right">
                     <p class="mt-4">Our gold deposits are located in some of the most prolific locations in the world. Our dedicated teams of geological experts use the latest technology and proven methods to extract gold of the highest quality. We attach great importance to sustainability and environmental protection in order to preserve nature and the communities in which we work.</p>
                     <p class="mt-2">Once the precious gold has been mined, it goes through a rigorous process of further processing. Our experienced team of professionals handle purification, refining and quality control to ensure only the purest, highest quality gold is available to our customers.</p>
+                    <p class="mt-2">The gold is melted in Dubai and minted as gold bars with our certification, so our bars meet international standards. With a wide range of bar sizes, we offer our customers the flexibility required for their individual needs. Whether you are an individual looking to invest in precious gold or a company, we always have the perfect solution for you.</p>
                 </div>
             </div>
             <div class="scnd-row row">
@@ -126,8 +127,9 @@
                     <img src="assets/img/about-page/stroke.png" alt="" class="phil-img-2">
                 </div>
                 <div class="col-12 col-lg-6 right">
-                    <p class="mt-4">Our gold deposits are located in some of the most prolific locations in the world. Our dedicated teams of geological experts use the latest technology and proven methods to extract gold of the highest quality. We attach great importance to sustainability and environmental protection in order to preserve nature and the communities in which we work.</p>
-                    <p class="mt-2">Once the precious gold has been mined, it goes through a rigorous process of further processing. Our experienced team of professionals handle purification, refining and quality control to ensure only the purest, highest quality gold is available to our customers.</p>
+                    <p class="mt-4">Our commitment to superior customer service has earned us a loyal global customer base. Our experienced sales team is always available to assist you with your questions and offer you the best deals. We are proud that our customers regard us as a reliable and trustworthy partner in the gold industry.</p>
+                    <p class="mt-2">As an international company, we have developed strong relationships with the best logistics partners to ensure our gold bars reach our customers around the world safely and efficiently. We personally take care of every step of the shipping process to ensure a smooth delivery.</p>
+                    <p class="mt-2">Thank you for visiting our website. We cordially invite you to learn more about our company, our values ​​and our products. We look forward to welcoming you to our ever-growing international family of satisfied customers.</p>
                 </div>
             </div>
         </div>
