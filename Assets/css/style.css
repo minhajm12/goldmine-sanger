@@ -38,6 +38,7 @@ body
     background:url('../img/top-bg.png');
     background-size: cover;
     position: relative;
+    transition: .3s ease;
 }
 /* #top-header .yellow-top
 {
@@ -72,6 +73,7 @@ body
 {
     margin: 0 !important;
     color: #fff;
+    font-weight: 400 !important;
 }
 #top-header .top-items .right
 {
@@ -106,6 +108,14 @@ body
 
 /* HEADER */
 
+#header
+{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    transition: .3s ease;
+    box-shadow: 0 0 10px #00000020;
+}
 #header .navbar
 {
     background: #fff !important;
@@ -156,15 +166,31 @@ body
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
+.nav-active
+{
+    transform: translateY(-150px);
+    /* display: none; */
+    /* transition: .3s ease; */
+}
+.box-nav-active
+{
+    box-shadow: 0 0 10px #00000020;
+}
+
+
+
+
 
 
 
 /* BANNER */
 #banner
 {
+    padding-top:15vh;
     width: 100%;
     height: 100%;
     position: relative;
+    overflow: hidden;
 }
 /* #banner .banner-bg
 {
@@ -280,7 +306,7 @@ body
     left:0;
     display: flex;
     align-items: center;
-    z-index: 999;
+    z-index: 2;
     display: flex;
     justify-content: center;
 }
@@ -515,6 +541,7 @@ body
 {
     color:#fff;
     font-size: 30px;
+    font-weight: 600 !important;
 }
 #projectsection .projct-btn
 {
@@ -618,7 +645,7 @@ body
     padding:2px 20px;
     background: #fff;
     border-radius: 20px;
-    font-weight: 500;
+    font-weight: 500 !important;
     font-size: 14px;
 }
 #blogsection .blogs-main .blog-item .blog-contents
@@ -774,7 +801,7 @@ body
 }
 #contactsection .right .cntct-nmbr
 {
-    font-weight: 800;
+    font-weight: 800 !important;
     font-size: 22px;
 }
 
@@ -844,7 +871,7 @@ body
     padding:6% 0 0 0;
     background:#fff;
     color:#fff;
-    /* position: relative; */
+    position: relative;
 }
 #footersection .footer-bg
 {
@@ -997,12 +1024,20 @@ body
         display: none !important;
     }
 
-
+    .nav-active
+    {
+        transform: translateY(-70px);
+    }
 
 
     #header .navbar .navbar-brand
     {
-        width: 25%;
+        width: 30%;
+    }
+
+    #banner
+    {
+        padding-top:5vh;
     }
     #banner .video-bg
     {
@@ -1227,16 +1262,16 @@ body
     }
     .scnd-head
     {
-        font-size: 30px;
+        font-size: 26px;
     }
     .main-head
     {
-        font-size: 26px;
+        font-size: 20px;
     }
     .main-btn
     {
         padding: 5px 30px;
-        font-size: 18px;
+        font-size: 16px;
     }
 
 
@@ -1278,7 +1313,7 @@ body
     }
     .sec-main-head
     {
-        font-size: 28px;
+        font-size: 26px;
     }
     #projectsection .projects
     {
@@ -1291,7 +1326,7 @@ body
     }
     #projectsection .projects .project-items h1
     {
-        font-size: 24px;
+        font-size: 18px;
     }
     #projectsection .projects .project-items p
     {
@@ -1351,7 +1386,8 @@ body
     }
     #blogsection .blogs-main .blog-item .blog-contents h2
     {
-        font-size: 24px;
+        font-size: 20px;
+        line-height: 22px;
     }
 
 
@@ -1543,7 +1579,7 @@ body
 }
 #teamsection .item-card .card-cont .details .card-num
 {
-    font-weight: 700;
+    font-weight: 700 !important;
     font-size: 18px;
 }
 #teamsection .item-card img
@@ -1575,6 +1611,7 @@ body
 #philosophysection
 {
     padding:4% 0;
+    overflow: hidden;
 }
 #philosophysection h1
 {
@@ -1771,13 +1808,17 @@ body
     }
     #philosophysection .first-row .left, #philosophysection .scnd-row .left
     {
-        padding:20px 40px;
-        overflow: hidden;
+        padding:40px 40px;
     }
     #philosophysection img
     {
         width: 70%;
     }
+    #philosophysection .scnd-row
+    {
+        margin-top:50px !important;
+    }
+    
 
 }
 
@@ -1800,21 +1841,25 @@ body
     {
         text-align: left;
     }
+    #about-contents
+    {
+        padding: 15% 0 0% 0;
+    }
 
 
 
 
     #teamsection .item-card
     {
-        padding:20px;
+        padding:10px 40px;
     }
     #teamsection .item-card .card-cont .details
     {
-        margin:10px 30px;
+        margin:10px 15px;
     }
     #teamsection .item-card img
     {
-        width: 85%;
+        width: 90%;
     }
 
 
@@ -1840,6 +1885,18 @@ body
     {
         text-align: left;
         padding:0 30px
+    }
+    #philosophysection h1
+    {
+        font-size: 28px;
+    }
+    #philosophysection .first-row .left, #philosophysection .scnd-row .left
+    {
+        padding:30px;
+    }
+    #philosophysection .first-row, #philosophysection .scnd-row
+    {
+        margin-top:30px;
     }
 
 
@@ -1867,15 +1924,29 @@ body
 
 
 
+#operationheading
+{
+    padding:100px 0 50px 0;
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#operationheading h1
+{
+    font-weight: 700;
+    /* margin-bottom:5% !important; */
+}
 
 
 
 
 #operationbanner
 {
-    background: url(../img/operations/operation-banner.png);
+    padding-top:10vh !important;
+    background: url('../img/operations/operation-banner.png');
     background-size: cover;
-    height: 60vh;
+    height: 75vh;
     background-position: center;
 }
 
@@ -1885,11 +1956,6 @@ body
     display: flex;
     align-items: center;
     background: #fff;
-}
-#operationsection h1
-{
-    font-weight: 700;
-    margin-bottom:5% !important;
 }
 #operationsection .content h2
 {
@@ -1907,11 +1973,172 @@ body
 #operationsection .content
 {
     background:#000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 40px;
     color:#fff;
     border-radius:20px;
+    position: relative;
 }
+/* #operationsection .content .cont-bg
+{
+    background:#000;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 110%;
+    z-index: -1;
+    border-radius: 20px;
+} */
 #operationsection .right img
 {
     border-radius: 20px;
+    z-index: -2;
+    position: relative;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    #operationsection h1
+    {
+        padding-top:140px;
+    }
+    #operationsection .left,
+    #operationsection .right
+    {
+        padding:0 30px;
+    }
+    #operationsection .content
+    {
+        padding:30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROJECT PAGE */
+#projectsec-banner
+{
+    padding-top:10vh !important;
+    background: url('../img/Banner/project-banner.png');
+    background-size: cover;
+    height: 75vh;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT PAGE */
+#contactsec-banner
+{
+    padding-top:10vh !important;
+    background: url('../img/Banner/contact-banner.png');
+    background-size: cover;
+    height: 75vh;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#contactsec-banner span
+{
+    background: #000000b7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+}
+#contactsec-banner h1
+{
+    font-size: 60px;
+    color:#fff !important;
+    z-index: 1;
+    font-weight: 700 !important;
+}
+#contactsec-banner p
+{
+    color:#fff !important;
+    z-index: 1;
+}
+
+
+
+
+#contactform
+{
+    padding:0 0 40px 0;
+}
+#contactform .formsection
+{
+    transform: translateY(-120px);
+    background: #fff;
+    height: 600px;
+    box-shadow: 0 0 50px #00000020;
+    border-radius: 30px;
 }

@@ -165,9 +165,14 @@
 
 
 
+    <script>
+        document.querySelectorAll('.ab-nav-link').forEach((item) => item.classList.add('active'));
+    </script>
 
+    <!-- Smooth Scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
 
-
+    <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
     <!-- Bootstrap -->
