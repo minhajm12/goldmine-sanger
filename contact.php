@@ -24,7 +24,7 @@
     <!-- End Header Section -->
 
 
-    
+
     <section id="contactsec-banner">
         <span></span>
         <h1>CONTACT WITH US</h1>
@@ -32,17 +32,32 @@
     </section>
 
 
+
     <section id="contactform">
         <div class="container">
             <div class="formsection">
-                <form action=""></form>
+                <h2>LET'S TALK <br class="cont-head-br">FOR INVEST WITH US</h2>
+                <form action="">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <input type="text" class="form-control mt-4" placeholder="Enter Your Name">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <input type="text" class="form-control mt-4" placeholder="Enter Your Email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <textarea type="text" class="form-control mt-4" rows="8" placeholder="Comment Here"></textarea>
+                        </div>
+                    </div>
+                    <div class="cnt-btn">
+                        <button type="submit" class="main-btn">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
-
-
-
-
 
 
     <!-- <section id="scndctasection">
@@ -61,6 +76,43 @@
     </section> -->
 
 
+    <section id="contact-details">
+        <div class="container">
+            <div class="details">
+                <div class="row">
+                    <div class="box col-12 col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-start mb-md-4">
+                        <div class="cont">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Al Khabeesi Office 212 - 1, Abdulrahman Hassan Building, Dubai, UAE, P.O Box 215484</p>
+                        </div>
+                    </div>
+                    <div class="box col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center">
+                        <div class="cont">
+                            <i class="fa-solid fa-envelope-circle-check"></i>
+                            <p>info@goldminesanger.com</p>
+                        </div>
+                    </div>
+                    <div class="box col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center">
+                        <div class="cont">
+                            <i class="fa-solid fa-phone"></i>
+                            <p class="cont-number">+971 50 504 3988</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="map-section">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14432.498245841753!2d55.32074518342638!3d25.26639492797003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5ce906f867d1%3A0x8a6d992d9274e41e!2sAl%20Khabaisi%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1692598042051!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+
+
+
 
     <!-- Footer Section -->
 
@@ -72,9 +124,19 @@
 
 
 
-    <!-- <script>
+    <script>
         document.querySelectorAll('.cnt-nav-link').forEach((item) => item.classList.add('active'));
-    </script> -->
+    </script>
+
+
+
+
+    
+
+
+
+
+
 
     <!-- Smooth Scroll -->
     <script src="assets/js/SmoothScrollMouseWheel.js"></script>

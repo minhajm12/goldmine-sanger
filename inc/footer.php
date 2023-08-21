@@ -37,7 +37,7 @@
                                 <a href="" class="nav-link">Investors</a>
                             </li>
                             <li class="nav-item">
-                                <a href="" class="nav-link">Blogs / News</a>
+                                <a href="blog.php" class="nav-link">Blogs / News</a>
                             </li>
                             <li class="nav-item">
                                 <a href="" class="nav-link">Career</a>

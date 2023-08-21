@@ -57,7 +57,7 @@
                 <div class="row flex-row-reverse">
                     <div class="col-12 col-lg-6 left py-5">
                         <div class="content">
-                            <span class="cont-bg"></span>
+                            <span class="cont-bg-rev"></span>
                             <h2 class="mb-3">RESPONSIBLE SOURCING</h2>
                             <p>After identifying the sites, we implement responsible extraction methods and leverage advanced machinery to optimize productivity while minimizing harm to the environment.</p><br>
                             <p>Our utmost concern is the well-being of our workforce, and we enforce rigorous safety measures to ensure the protection of our employees throughout the mining operations.</p>
@@ -93,7 +93,7 @@
                 <div class="row flex-row-reverse">
                     <div class="col-12 col-lg-6 left py-5">
                         <div class="content">
-                            <span class="cont-bg"></span>
+                            <span class="cont-bg-rev"></span>
                             <h2 class="mb-3">QUALITY ASSURANCE</h2>
                             <p>Our primary emphasis is on maintaining high quality. Throughout the processing stage, we conduct thorough quality assurance examinations to verify the purity and genuineness of the extracted gold.</p><br>
                             <p>Equipped with state-of-the-art testing tools, our laboratories meticulously analyze each batch to ensure that it aligns with the most stringent global benchmarks.</p>
@@ -129,7 +129,7 @@
                 <div class="row flex-row-reverse">
                     <div class="col-12 col-lg-6 left py-5">
                         <div class="content">
-                            <span class="cont-bg"></span>
+                            <span class="cont-bg-rev"></span>
                             <h2 class="mb-3">INTERNATIONAL DISTRIBUTION</h2>
                             <p>Situated strategically in Dubai, a prominent global trading center, our headquarters have facilitated the establishment of a resilient international distribution network.</p><br>
                             <p>Our gold items are meticulously transported across the globe, adhering to strict adherence to international trade mandates and security protocols to ensure their safety.</p>
@@ -164,7 +164,7 @@
                 <div class="row flex-row-reverse">
                     <div class="col-12 col-lg-6 left py-5">
                         <div class="content">
-                            <span class="cont-bg"></span>
+                            <span class="cont-bg-rev"></span>
                             <h2 class="mb-3">ENVIRONMENTAL RESPONSIBILITY</h2>
                             <p>Goldminesanger is dedicated to creating a beneficial influence on both communities and the environment.</p><br>
                             <p>We allocate resources towards social development projects and environmental endeavors, ensuring that our commitment results in a sustainable and positive influence over time.</p>

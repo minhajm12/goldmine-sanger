@@ -61,8 +61,11 @@
                     <li class="nav-item">
                         <a class="nav-link sus-nav-link" href="#">Sustainability</a>
                     </li>
-                    <li class="nav-item nav-contact">
+                    <li class="nav-item">
                         <a class="nav-link cnt-nav-link" href="contact.php">Contact Us</a>
+                    </li>
+                    <li class="nav-item nav-contact">
+                        <a class="nav-link" href="request.php">REQUEST NOW</a>
                     </li>
                     <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -86,5 +89,8 @@
         </div>
     </nav>
 </header>
+
+
+
 
 <!-- HEADER SECTION -->
