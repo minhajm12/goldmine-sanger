@@ -46,7 +46,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/item-img.jpg" alt="" width="100%">
+                        <img src="assets/img/operations/operation-1.jpg" alt="" width="100%">
                     </div>
                 </div>
             </div>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/item-img.jpg" alt="" width="100%">
+                        <img src="assets/img/operations/operation-2.jpg" alt="" width="100%">
                     </div>
                 </div>
             </div>
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/item-img.jpg" alt="" width="100%">
+                        <img src="assets/img/operations/operation-3.jpg" alt="" width="100%">
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/item-img.jpg" alt="" width="100%">
+                        <img src="assets/img/operations/operation-4.jpg" alt="" width="100%">
                     </div>
                 </div>
             </div>
@@ -118,7 +118,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/item-img.jpg" alt="" width="100%">
+                        <img src="assets/img/operations/operation-5.jpg" alt="" width="100%">
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/item-img.jpg" alt="" width="100%">
+                        <img src="assets/img/operations/operation-6.jpg" alt="" width="100%">
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/item-img.jpg" alt="" width="100%">
+                        <img src="assets/img/operations/operation-7.jpg" alt="" width="100%">
                     </div>
                 </div>
             </div>
@@ -171,7 +171,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/item-img.jpg" alt="" width="100%">
+                        <img src="assets/img/operations/operation-8.jpg" alt="" width="100%">
                     </div>
                 </div>
             </div>
@@ -193,24 +193,11 @@
 
 
 
-    <!-- SCND CTA SECTION -->
+    <!-- scnd cta Section -->
 
-    <section id="scndctasection" class="panel">
-        <div class="container">
-            <div class="scnd-cta-sec">
-                <div class="row">
-                    <div class="col-12 col-lg-6 left">
-                        <h1>Seize the Gold Investment Opportunity Today....!</h1>
-                        <p>Discover the brilliance of investing in gold with us. As a gold investor, you'll gain access to a world of precious opportunities</p>
-                        <a href="" class="cta-btn">CONTACT US</a>
-                    </div>
-                    <div class="col-12 col-lg-6 "></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include 'inc/scnd-cta.php'; ?>
 
-    <!-- END SCND CTA SECTION -->
+    <!-- End scnd cta Section -->
 
 
 
@@ -229,6 +216,7 @@
 
     <script>
         document.querySelectorAll('.op-nav-link').forEach((item) => item.classList.add('active'));
+        document.querySelectorAll('.scndctasection').forEach((item) => item.classList.add('panel'));
     </script>
 
     <!-- gsap -->

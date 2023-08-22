@@ -40,10 +40,28 @@
         <div class="container">
             <div class="aboutcont">
                 <h1>ABOUT <br class="about-head-break"><span>GOLDMINE SANGER</span></h1>
-                <p>Goldminsesanger ist ein führendes Unternehmen im Bereich Gold mining in Dubai. Mit jahrzehntelanger Erfahrung und einem engagierten Team von Experten sind wir stolz darauf, hochwertiges Gold unseren Kunden weltweit abnbieten zu können. Unsere modernen Technologien und nachhaltigen Abbaupraktiken ermöglichen es uns, Gold auf effiziente und verantwortungsvolle Weise zu gewinnen. Bei Goldminsesanger streben wir nach Exzellenz und strengen Qualitätsstandards, um den Anforderungen unserer Kunden gerecht zu werden.</p>
+                <p>Goldminsesanger is a leading gold mining company in Dubai. With decades of experience and a dedicated team of experts, we pride ourselves on being able to offer high quality gold to our customers worldwide. Our modern technologies and sustainable mining practices enable us to extract gold in an efficient and responsible manner. At Goldminsesanger we strive for excellence and strict quality standards to meet the demands of our customers.</p>
             </div>
         </div>
     </section>
+
+
+
+
+    <!-- CEO MESSAGE SECTION -->
+    <section id="ceomessage">
+        <div class="container">
+            <div class="message">
+                <h2>Mission</h2>
+                <p>Our mission is to ensure that gold is extracted responsibly and sustainably from our mines while minimising environmental impact.</p>
+                <h2 class="mt-4">Vision</h2>
+                <p>And we vision to be one of the largest mining companies that ensures all communities and‌ nature are well protected. By upholding these values, Goldmine Sanger can make a positive difference in the world while also creating a successful business.</p>
+            </div>
+        </div>
+    </section>
+
+
+
 
 
     <section id="teamsection">
@@ -81,15 +99,23 @@
 
 
 
-    <!-- CTA Section -->
 
+
+    
+
+
+
+
+
+
+    <!-- CTA Section -->
     <section id="about-page-cta">
         <div class="container">
             <div id="cta-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-lg-6 left"></div>
-                        <div class="col-12 col-lg-6 right">
+                        <div class="col-12 col-lg-4 left"></div>
+                        <div class="col-12 col-lg-8 right">
                             <h1>EXTRACTING STONES<br>WITH LATEST TECHNIQUES</h1>
                             <p class="para">A clear strategy focused on sustained value creation.</p>
                             <a href="" class="cta-btn">CONTACT US</a>
@@ -130,6 +156,7 @@
                     <p class="mt-4">Our commitment to superior customer service has earned us a loyal global customer base. Our experienced sales team is always available to assist you with your questions and offer you the best deals. We are proud that our customers regard us as a reliable and trustworthy partner in the gold industry.</p>
                     <p class="mt-2">As an international company, we have developed strong relationships with the best logistics partners to ensure our gold bars reach our customers around the world safely and efficiently. We personally take care of every step of the shipping process to ensure a smooth delivery.</p>
                     <p class="mt-2">Thank you for visiting our website. We cordially invite you to learn more about our company, our values ​​and our products. We look forward to welcoming you to our ever-growing international family of satisfied customers.</p>
+                    <p class="mt-3 mt-lg-5 team">- Goldmine Sanger Team</p>
                 </div>
             </div>
         </div>
@@ -138,20 +165,11 @@
     <!-- END PHILOSOPHY Section -->
 
 
-    <section id="scndctasection">
-        <div class="container">
-            <div class="scnd-cta-sec">
-                <div class="row">
-                    <div class="col-12 col-lg-6 left">
-                        <h1>Seize the Gold Investment Opportunity Today....!</h1>
-                        <p>Discover the brilliance of investing in gold with us. As a gold investor, you'll gain access to a world of precious opportunities</p>
-                        <a href="" class="cta-btn">CONTACT US</a>
-                    </div>
-                    <div class="col-12 col-lg-6 "></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- scnd cta Section -->
+
+    <?php include 'inc/scnd-cta.php'; ?>
+
+    <!-- End scnd cta Section -->
 
 
 

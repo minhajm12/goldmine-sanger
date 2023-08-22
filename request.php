@@ -91,7 +91,7 @@
                         </div>
                         <div class="col-12 col-lg-6 mt-4 input-div">
                             <div class="dropdown">
-                                <input type="text" class="dropdown-input" readonly value="- select service -">
+                                <input type="text" class="dropdown-input" readonly value="- select item -">
                                 <ul class="dropdown-div">
                                     <li name="" id="" class="dropdown-items" value="Gold Price">Gold Price</li>
                                     <li name="" id="" class="dropdown-items" value="Gold Quantity">Gold Quantity</li>
@@ -114,20 +114,11 @@
 
 
 
-    <section id="scndctasection">
-        <div class="container">
-            <div class="scnd-cta-sec">
-                <div class="row">
-                    <div class="col-12 col-lg-6 left">
-                        <h1>Seize the Gold Investment Opportunity Today....!</h1>
-                        <p>Discover the brilliance of investing in gold with us. As a gold investor, you'll gain access to a world of precious opportunities</p>
-                        <a href="" class="cta-btn">CONTACT US</a>
-                    </div>
-                    <div class="col-12 col-lg-6 "></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- scnd cta Section -->
+
+    <?php include 'inc/scnd-cta.php'; ?>
+
+    <!-- End scnd cta Section -->
 
 
 

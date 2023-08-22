@@ -19,13 +19,13 @@
                     </div>
                 </div>
                 <div class="right">
-                    <a href="">
+                    <a href="#">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
-                    <a href="">
+                    <a href="#">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
-                    <a href="">
+                    <a href="#">
                         <i class="fa-brands fa-x-twitter"></i>
                     </a>
                 </div>
@@ -59,7 +59,7 @@
                         <a class="nav-link pr-nav-link" href="project.php">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link sus-nav-link" href="#">Sustainability</a>
+                        <a class="nav-link sus-nav-link" href="sustainability.php">Sustainability</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link cnt-nav-link" href="contact.php">Contact Us</a>

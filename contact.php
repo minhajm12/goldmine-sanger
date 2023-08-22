@@ -28,7 +28,7 @@
     <section id="contactsec-banner">
         <span></span>
         <h1>CONTACT WITH US</h1>
-        <p>We begin our journey by thoroughly exploring and evaluating potential gold deposits in Afghanistan through</p>
+        <p>Begin your journey here to explore the gold and its gain.</p>
     </section>
 
 
@@ -36,7 +36,7 @@
     <section id="contactform">
         <div class="container">
             <div class="formsection">
-                <h2>LET'S TALK <br class="cont-head-br">FOR INVEST WITH US</h2>
+                <h2>CONTACT<br class="cont-head-br"> GOLDMINE SANGER</h2>
                 <form action="">
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-6">

@@ -25,27 +25,69 @@
 
 
     
-    <section id="projectsec-banner"></section>
+    <section id="projectsec-banner">
+        <span></span>
+        <h1>OUR PROJECTS</h1>
+    </section>
 
 
 
 
 
 
-    <section id="scndctasection">
+    <section id="projectmainsec">
         <div class="container">
-            <div class="scnd-cta-sec">
-                <div class="row">
-                    <div class="col-12 col-lg-6 left">
-                        <h1>Seize the Gold Investment Opportunity Today....!</h1>
-                        <p>Discover the brilliance of investing in gold with us. As a gold investor, you'll gain access to a world of precious opportunities</p>
-                        <a href="" class="cta-btn">CONTACT US</a>
+            <h1>LATEST MINING AREAS</h1>
+            <div class="project-items-main">
+                <div class="project-items">
+                    <div class="img-div">
+                        <img src="assets/img/projects/project-1.jpg" alt="">
                     </div>
-                    <div class="col-12 col-lg-6 "></div>
+                    <div class="project-cont">
+                        <h2>Project - 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima quos tempora pariatur? Necessitatibus, fugit!</p>
+                        <!-- <a href="-=/.  " class="blog-btn">View Project</a> -->
+                    </div>
+                </div>
+                <div class="project-items">
+                    <div class="img-div">
+                        <img src="assets/img/projects/project-2.jpg" alt="">
+                    </div>
+                    <div class="project-cont">
+                        <h2>Project - 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima quos tempora pariatur? Necessitatibus, fugit!</p>
+                    </div>
+                </div>
+                <div class="project-items">
+                    <div class="img-div">
+                        <img src="assets/img/projects/project-3.jpg" alt="">
+                    </div>
+                    <div class="project-cont">
+                        <h2>Project - 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima quos tempora pariatur? Necessitatibus, fugit!</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- scnd cta Section -->
+
+    <?php include 'inc/scnd-cta.php'; ?>
+
+    <!-- End scnd cta Section -->
 
 
 

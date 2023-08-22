@@ -38,15 +38,15 @@
                 </video>
                 <div class="container">
                     <div class="banner-content">
-                        <h1>Extending <br>Long-Term Value</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        <a href="#" class="banner-btn">Read More</a>
+                        <h1>Goldmine Snager <br>Striving For Excellence</h1>
+                        <p>We take your needs to quality experience in its true value.</p>
+                        <a href="about.php" class="banner-btn">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="bottom-gold">
+        <!-- <div class="bottom-gold">
             <div class="gold-updates">
                 <div class="row">
                     <div class="col-4">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <!-- End Banner Section -->
@@ -98,8 +98,8 @@
                         <h1 class="main-head">About</h1>
                         <h2 class="scnd-head">GOLDMINE SANGER</h2>
                     </div>
-                    <p class="para">Goldminsesanger ist ein führendes Unternehmen im Bereich Gold mining in Dubai. Mit jahrzehntelanger Erfahrung und einem engagierten Team von Experten sind wir stolz darauf, hochwertiges Gold unseren Kunden weltweit abnbieten zu können. Unsere modernen Technologien und nachhaltigen Abbaupraktiken ermöglichen es uns, Gold auf effiziente und verantwortungsvolle Weise zu gewinnen. Bei Goldminsesanger streben wir nach Exzellenz und strengen Qualitätsstandards, um den Anforderungen unserer Kunden gerecht zu werden.</p>
-                    <a href="" class="main-btn"> Read More</a>
+                    <p class="para">Goldminsesanger is a leading gold mining company in Dubai. With decades of experience and a dedicated team of experts, we pride ourselves on being able to offer high quality gold to our customers worldwide. Our modern technologies and sustainable mining practices enable us to extract gold in an efficient and responsible manner. At Goldminsesanger we strive for excellence and strict quality standards to meet the demands of our customers.</p>
+                    <a href="about.php" class="main-btn"> Read More</a>
                 </div>
             </div>
         </div>
@@ -118,7 +118,7 @@
                 <div class="col-12 col-lg-6 right">
                     <h1>EXTRACTING STONES<br>WITH LATEST TECHNIQUES</h1>
                     <p class="para">A clear strategy focused on sustained value creation.</p>
-                    <a href="" class="cta-btn">CONTACT US</a>
+                    <a href="contact.php" class="cta-btn">CONTACT US</a>
                 </div>
             </div>
         </div>
@@ -171,7 +171,7 @@
                 </a>
             </div>
             <div class="projct-btn">
-                <a href="" class="main-btn">View More</a>
+                <a href="project.php" class="main-btn">View More</a>
             </div>
         </div>
     </section>
@@ -185,6 +185,8 @@
     <section id="investorsection">
         <div class="container">
             <div class="investors">
+                <h1>OUR INVESTORS</h1>
+                <p>Announce your esteemed alliance with us by investing in gold.</p>
                 <div class="top owl-carousel">
                     <div class="item">
                         <img src="assets/img/investors/1.png" alt="">
@@ -202,7 +204,7 @@
                         <img src="assets/img/investors/5.png" alt="">
                     </div>
                 </div>
-                <div class="bottom owl-carousel">
+                <!-- <div class="bottom owl-carousel">
                     <div>
                         <img src="assets/img/investors/1.png" alt="">
                     </div>
@@ -218,9 +220,9 @@
                     <div>
                         <img src="assets/img/investors/5.png" alt="">
                     </div>
-                </div>
+                </div> -->
                 <div class="clnt-btn">
-                    <a href="" class="banner-btn">View More</a>
+                    <a href="" class="banner-btn">INVEST WITH US</a>
                 </div>
             </div>
         </div>
@@ -286,7 +288,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6 left">
                     <form>
-                        <h2>INTRESTED TO INVEST..?<br>LET'S TALK WITH US</h2>
+                        <h2>INVEST IN THE TEAM<br>CONNECT WITH US</h2>
                         <div class="mb-4 mt-4">
                             <input type="text" class="form-control" placeholder="Your Name">
                         </div>
@@ -301,7 +303,7 @@
                 </div>
                 <div class="col-12 col-lg-6 right">
                     <h2>GET IN TOUCH</h2>
-                    <p>Learn about opportunities to join our dynamic, high-performance culture, and hear what employees say about working at Kinross.</p>
+                    <p>discover the whole new experience of being a gold investor and promoting a better future for all local communities and the environment.</p>
                     <div class="align-items-start">
                         <i class="fa-solid fa-location-dot"></i>
                         <p class="location-add">Al Khabeesi Office 212 - 1, Abdulrahman Hassan Building, Dubai, UAE, P.O Box 215484</p>
