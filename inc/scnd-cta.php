@@ -5,7 +5,7 @@
                 <div class="col-12 col-lg-6 left">
                     <h1>Seize the Gold Investment Opportunity Today....!</h1>
                     <p>Discover the brilliance of investing in gold with us. As a gold investor, you'll gain access to a world of precious opportunities</p>
-                    <a href="request.php" class="cta-btn">CONTACT US</a>
+                    <a href="contact.php" class="cta-btn">INVEST WITH US</a>
                 </div>
                 <div class="col-12 col-lg-6 "></div>
             </div>

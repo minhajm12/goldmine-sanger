@@ -222,7 +222,7 @@
                     </div>
                 </div> -->
                 <div class="clnt-btn">
-                    <a href="" class="banner-btn">INVEST WITH US</a>
+                    <a href="contact.php" class="banner-btn">INVEST WITH US</a>
                 </div>
             </div>
         </div>
@@ -338,7 +338,7 @@
                         <h2 class="scnd-head">OPPORTUNITIES</h2>
                     </div>
                     <p>Learn about opportunities to join our dynamic, high-performance culture, and hear what employees say about working at Kinross.</p>
-                    <a href="" class="main-btn"> Read More</a>
+                    <a href="career.php" class="main-btn"> Read More</a>
                 </div>
                 <div class="col-12 col-lg-6 right">
                     <div class="image-div">

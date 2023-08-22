@@ -91,10 +91,12 @@
                         </div>
                         <div class="col-12 col-lg-6 mt-4 input-div">
                             <div class="dropdown">
-                                <input type="text" class="dropdown-input" readonly value="- select item -">
+                                <input type="text" class="dropdown-input" readonly value="- select service -">
                                 <ul class="dropdown-div">
                                     <li name="" id="" class="dropdown-items" value="Gold Price">Gold Price</li>
                                     <li name="" id="" class="dropdown-items" value="Gold Quantity">Gold Quantity</li>
+                                    <li name="" id="" class="dropdown-items" value="Invest With Us">Invest With Us</li>
+                                    <li name="" id="" class="dropdown-items" value="Other">Other</li>
                                 </ul>
                             </div>
                         </div>

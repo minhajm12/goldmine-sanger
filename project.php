@@ -46,7 +46,7 @@
                     <div class="project-cont">
                         <h2>Project - 1</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima quos tempora pariatur? Necessitatibus, fugit!</p>
-                        <!-- <a href="-=/.  " class="blog-btn">View Project</a> -->
+                        <a href="-=/.  " class="blog-btn">View Project</a>
                     </div>
                 </div>
                 <div class="project-items">
@@ -56,6 +56,7 @@
                     <div class="project-cont">
                         <h2>Project - 2</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima quos tempora pariatur? Necessitatibus, fugit!</p>
+                        <a href="" class="blog-btn"> View Project</a>
                     </div>
                 </div>
                 <div class="project-items">
@@ -65,6 +66,17 @@
                     <div class="project-cont">
                         <h2>Project - 3</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima quos tempora pariatur? Necessitatibus, fugit!</p>
+                        <a href="" class="blog-btn"> View Project</a>
+                    </div>
+                </div>
+                <div class="project-items">
+                    <div class="img-div">
+                        <img src="assets/img/projects/project-4.jpg" alt="">
+                    </div>
+                    <div class="project-cont">
+                        <h2>Project - 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores minima quos tempora pariatur? Necessitatibus, fugit!</p>
+                        <a href="" class="blog-btn"> View Project</a>
                     </div>
                 </div>
             </div>
