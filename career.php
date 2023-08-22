@@ -67,7 +67,7 @@
                     <a href="mailto:info@goldminesanger.com" class="blog-btn">Apply Now</a>
                 </div>
                 <div class="opening-item">
-                    <h2>SPERVISOR</h2>
+                    <h2>SUPERVISOR</h2>
                     <div>
                         <p>No.of Openings: <span class="open">5</span></p>
                         <p>Experience: <span class="open">2 Years</span></p>

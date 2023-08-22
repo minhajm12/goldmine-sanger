@@ -2271,7 +2271,7 @@ body {
     }
     #projectmainsec .project-items-main
     {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     #projectmainsec h1
     {
@@ -2279,12 +2279,18 @@ body {
     }
     #projectmainsec .project-items-main .project-items
     {
-        padding:10px;
+        padding:20px;
     }
     #projectmainsec .project-items-main .project-cont
     {
-        padding:20px;
+        padding:30px 20px;
     }
+    #projectmainsec .project-items-main .project-cont h2
+    {
+        font-size: 26px;
+        font-weight: 600 !important;
+    }
+    
 }
 
 
@@ -2306,6 +2312,14 @@ body {
     {
         font-size: 24px;
         padding:2dvb 0;
+    }
+    #projectmainsec .project-items-main .project-items
+    {
+        padding:10px;
+    }
+    #projectmainsec .container
+    {
+        padding:0 20px;
     }
 }
 
@@ -3284,4 +3298,50 @@ body {
     font-size: 16px;
     color: #000;
     font-weight: 500 !important;
+}
+
+
+
+@media only screen and (max-width: 992px)
+{
+    #career-banner h1
+    {
+        font-size: 40px;
+    }
+    #openingssec .openings
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    #careersection .left
+    {
+        padding: 100px;
+    }
+    #career-banner
+    {
+        height: 50vh;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px)
+{
+    #careersection .left
+    {
+        padding:50px;
+    }
+    #careersection .right
+    {
+        padding:0 30px
+    }
+    #careersection .right h1
+    {
+        font-size: 28px;
+    }
+    #openingssec .openings
+    {
+        margin:40px 0;
+        grid-template-columns: 1fr;
+        padding:0 20px;
+    }
 }
