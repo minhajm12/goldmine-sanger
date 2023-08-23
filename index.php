@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="Assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" /> -->
 
 </head>
 
@@ -33,12 +33,12 @@
     <section id="banner">
         <div class="banner-slider">
             <div class="banner-item">
-                <video class="video-bg" autoplay muted loop>
+                <video class="video-bg" playsinline="true" autoplay muted loop>
                     <source src="assets/img/video/bg-video-1.mp4" type="video/mp4">
                 </video>
                 <div class="container">
                     <div class="banner-content">
-                        <h1>Goldmine Snager <br>Striving For Excellence</h1>
+                        <h1>Goldmine Sanger <br><span>Striving For Excellence</span></h1>
                         <p>We take your needs to quality experience in its true value.</p>
                         <a href="about.php" class="banner-btn">Read More</a>
                     </div>
@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <!-- <div class="bottom-gold">
+        <div class="bottom-gold">
             <div class="gold-updates">
                 <div class="row">
                     <div class="col-4">
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     </section>
 
     <!-- End Banner Section -->
@@ -132,7 +132,14 @@
     <section id="projectsection">
         <div class="container">
             <h1 class="sec-main-head">PROJECTS</h1>
-            <div class="projects">
+
+            <div class="coming-soon">
+                <img src="assets/img/coming-soon.png" alt="">
+            </div>
+
+
+
+            <!-- <div class="projects">
                 <a href="#">
                     <div class="project-items">
                         <img src="assets/img/projects/project-2.jpg" alt="" width="100%">
@@ -172,7 +179,11 @@
             </div>
             <div class="projct-btn">
                 <a href="project.php" class="main-btn">View More</a>
-            </div>
+            </div> -->
+
+
+
+            
         </div>
     </section>
 
@@ -187,7 +198,9 @@
             <div class="investors">
                 <h1>OUR INVESTORS</h1>
                 <p>Announce your esteemed alliance with us by investing in gold.</p>
-                <div class="top owl-carousel">
+
+
+                <!-- <div class="top owl-carousel">
                     <div class="item">
                         <img src="assets/img/investors/1.png" alt="">
                     </div>
@@ -203,7 +216,9 @@
                     <div class="item">
                         <img src="assets/img/investors/5.png" alt="">
                     </div>
-                </div>
+                </div> -->
+
+
                 <!-- <div class="bottom owl-carousel">
                     <div>
                         <img src="assets/img/investors/1.png" alt="">
@@ -236,7 +251,14 @@
     <section id="blogsection">
         <div class="container">
             <h1 class="sec-main-head">Blogs & News</h1>
-            <div class="blogs-main">
+
+            <div class="coming-soon">
+                <img src="assets/img/coming-soon.png" alt="">
+            </div>
+
+
+
+            <!-- <div class="blogs-main">
                 <div class="blog-item">
                     <div class="img-div">
                         <img src="assets/img/blog/blog-1.jpg" alt="" width="100%">
@@ -271,6 +293,12 @@
                     </div>
                 </div>
             </div>
+            <div class="blog-button mt-4 mt-lg-5">
+                <a href="blog.php" class="main-btn">VIEW ALL</a>
+            </div> -->
+
+
+
         </div>
     </section>
 
@@ -311,12 +339,12 @@
 
                     <div>
                         <i class="fa-solid fa-envelope"></i>
-                        <p>info@goldminesanger.com</p>
+                        <a href="mailto:info@goldminesanger.com" class="mail">info@goldminesanger.com</a>
                     </div>
 
                     <div class="align-item-center" style="align-items:center;">
                         <i class="fa-solid fa-phone"></i>
-                        <p class="cntct-nmbr">+971 50 504 3988</p>
+                        <a class="cntct-nmbr" href="tel:+971 50 504 3988">+971 50 504 3988</a>
                     </div>
 
                 </div>
@@ -360,7 +388,7 @@
     <!-- End Footer Section -->
 
 
-    
+
 
 
 
@@ -369,7 +397,7 @@
         document.querySelectorAll('.hm-nav-link').forEach((item) => item.classList.add('active'));
     </script>
 
-    
+
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
@@ -384,7 +412,7 @@
     <script src="https://kit.fontawesome.com/275b00d5ce.js" crossorigin="anonymous"></script>
 
     <!-- Owl Carousel -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
 
     <script src="Assets/js/main.js"></script>
 

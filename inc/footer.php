@@ -56,11 +56,11 @@
                         </div>
                         <div>
                             <i class="fa-solid fa-envelope"></i>
-                            <p>info@goldminesanger.com</p>
+                            <a href="mailto:">info@goldminesanger.com</a>
                         </div>
                         <div class="align-item-center" style="align-items:center;">
                             <i class="fa-solid fa-phone"></i>
-                            <p class="cntct-nmbr" style="font-weight:700;">+971 50 504 3988</p>
+                            <a href="tel:+971 50 504 3988" class="cntct-nmbr" style="font-weight:700;">+971 50 504 3988</a>
                         </div>
                     </div>
                 </div>

@@ -485,6 +485,13 @@ body {
 #projectsection {
     padding: 8% 0;
 }
+#projectsection .coming-soon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}
 
 .sec-main-head {
     font-size: 35px;
@@ -568,7 +575,7 @@ body {
     background-position: center;
     display: flex;
     flex-direction: column;
-    /* gap: 40px; */
+    gap: 20px;
     padding: 80px 0;
     border-radius: 30px;
 }
@@ -577,7 +584,7 @@ body {
     text-align: center;
     color: #fff;
     font-weight: 600;
-    margin-bottom: 10px !important;
+    /* margin-bottom: 10px !important; */
 }
 #investorsection .investors p
 {
@@ -618,7 +625,13 @@ body {
 #blogsection {
     padding: 8% 0;
 }
-
+#blogsection .coming-soon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}
 #blogsection .blogs-main {
     display: grid;
     gap: 20px;
@@ -693,6 +706,16 @@ body {
 .blog-btn:hover {
     background: #E8A917;
 }
+#blogsection .blog-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
 
 
 
@@ -814,6 +837,13 @@ body {
 #contactsection .right .cntct-nmbr {
     font-weight: 800 !important;
     font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+}
+#contactsection .right .mail
+{
+    text-decoration: none;
+    color: #fff;
 }
 
 
@@ -991,6 +1021,11 @@ body {
 
 #footersection .copyright p span {
     font-weight: 600;
+}
+#footersection .foot-4 a
+{
+    text-decoration: none;
+    color: #fff;
 }
 
 
@@ -1186,7 +1221,7 @@ body {
     }
 
     #footersection .foot-1 {
-        padding: 20px 0 0 40px;
+        padding: 20px 20px 0 40px;
     }
 }
 
@@ -1206,11 +1241,11 @@ body {
 
     #banner .banner-item {
         height: 70vh;
-        align-items: flex-start;
+        align-items: center;
     }
 
     #banner .banner-item .banner-content h1 {
-        font-size: 36px;
+        font-size: 30px;
     }
 
     #banner .banner-item .banner-content p {
@@ -1224,7 +1259,7 @@ body {
 
     #banner .banner-item .banner-content {
         padding-left: 20px;
-        margin-top: 100px;
+        /* margin-top: 200px; */
     }
 
     #banner .bottom-gold {
@@ -1234,7 +1269,7 @@ body {
 
     #banner .bottom-gold .gold-updates {
         margin: 0;
-        padding: 20px 10px;
+        padding: 15px 10px;
         background: #ffffff20;
         border-radius: 10px;
     }
@@ -1251,7 +1286,7 @@ body {
     #banner .bottom-gold .gold-updates .details {
         flex-direction: column;
         gap: 0;
-        margin-top: 5px;
+        /* margin-top: 5px; */
     }
 
     #banner .bottom-gold .gold-updates .details p {
@@ -1283,7 +1318,7 @@ body {
 
     .main-btn {
         padding: 5px 30px;
-        font-size: 16px;
+        font-size: 14px;
     }
 
 
@@ -1332,7 +1367,7 @@ body {
     }
 
     #projectsection .projects .project-items {
-        border-radius: 15px;
+        border-radius: 10px;
     }
 
     #projectsection .projects .project-items h1 {
@@ -1350,7 +1385,7 @@ body {
 
     #projectsection .projects .project-items .contents {
         gap: 5px;
-        padding: 80px 20px 20px 20px;
+        padding: 80px 15px 15px 15px;
     }
 
 
@@ -1361,7 +1396,7 @@ body {
 
     #investorsection .investors {
         gap: 20px;
-        padding: 30px 0;
+        padding: 50px 0;
         border-radius: 0;
     }
 
@@ -1371,6 +1406,15 @@ body {
 
     #investorsection .container {
         padding: 0;
+    }
+    #investorsection .investors p
+    {
+        padding:0 40px;
+        line-height: 20px;
+    }
+    #investorsection .investors .top, #investorsection .investors .bottom
+    {
+        margin:20px 0;
     }
 
 
@@ -1398,6 +1442,15 @@ body {
         font-size: 20px;
         line-height: 22px;
     }
+    #blogsection .blogs-main .blog-item .blog-contents p
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .blog-btn
+    {
+        font-size: 12px;
+    }
 
 
 
@@ -1414,10 +1467,11 @@ body {
     #contactsection .left form {
         margin: 0 !important;
         padding: 40px 30px;
+        border-radius: 10px;
     }
 
     #contactsection h2 {
-        font-size: 28px;
+        font-size: 24px;
         line-height: 30px;
     }
 
@@ -1460,6 +1514,10 @@ body {
 
     #footersection .copyright p {
         font-size: 12px;
+    }
+    #footersection .footer-brand img
+    {
+        width: 75%;
     }
 }
 
@@ -1507,7 +1565,7 @@ body {
 
 /* ABOUT PAGE CSS */
 .about-page-banner {
-    background: url(../img/Banner/banner-3.jpg);
+    background: url(../img/banner/banner-3.jpg);
     background-position: center;
     background-size: cover;
     height: 75vh;
@@ -1561,7 +1619,7 @@ body {
 }
 
 #teamsection .item-card .card-cont h2 {
-    margin-top: 20px !important;
+    /* margin-top: 20px !important; */
     font-weight: 700;
     font-size: 26px !important;
 }
@@ -1581,6 +1639,12 @@ body {
 #teamsection .item-card .card-cont .details p {
     color: #fff;
     font-size: 16px;
+}
+#teamsection .item-card .card-cont .country
+{
+    padding:10px;
+    color: #000 !important;
+    font-weight: 500 !important;
 }
 
 #teamsection .item-card .card-cont .details .card-num {
@@ -2124,6 +2188,10 @@ body {
     {
         padding-bottom:0;
     }
+    #operationsection .left
+    {
+        padding: 0 auto !important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -2137,11 +2205,24 @@ body {
 
     #operationsection .left,
     #operationsection .right {
-        padding: 0 30px;
+        padding: 0 20px !important;
     }
 
     #operationsection .content {
-        padding: 30px;
+        padding:20px;
+    }
+    #operationsection .content .cont-bg,
+    #operationsection .content .cont-bg-rev
+    {
+        border-radius: 20px 20px 0 0 !important;
+    }
+    #operationsection .right img
+    {
+        border-radius:0 0 20px 20px !important;
+    }
+    #operationsection .content p
+    {
+        font-size: 14px !important;
     }
 }
 
@@ -2180,7 +2261,7 @@ body {
 /* PROJECT PAGE */
 #projectsec-banner {
     padding-top: 10vh !important;
-    background: url('../img/Banner/project-banner.png');
+    background: url('../img/banner/project-banner.png');
     background-size: cover;
     height: 75vh;
     background-position: center;
@@ -2362,7 +2443,7 @@ body {
 /* CONTACT PAGE */
 #contactsec-banner {
     padding-top: 10vh !important;
-    background: url('../img/Banner/contact-banner.png');
+    background: url('../img/banner/contact-banner.png');
     background-size: cover;
     height: 75vh;
     background-position: center;
@@ -2655,7 +2736,7 @@ body {
 #requestbanner
 {
     padding-top: 10vh !important;
-    background: url('../img/Banner/request-banner.jpg');
+    background: url('../img/banner/request-banner.jpg');
     background-size: cover;
     height: 75vh;
     background-position: center;
@@ -2929,7 +3010,7 @@ body {
 #blogsec-banner
 {
     padding-top: 10vh !important;
-    background: url('../img/Banner/blog-banner.jpg');
+    background: url('../img/banner/blog-banner.jpg');
     background-size: cover;
     height: 75vh;
     background-position: center;
@@ -3064,7 +3145,7 @@ body {
 #sustainability-banner
 {
     padding-top: 10vh !important;
-    background: url('../img/Banner/sutainability-banner.jpg');
+    background: url('../img/banner/sutainability-banner.jpg');
     background-size: cover;
     height: 75vh;
     background-position: center top;
@@ -3214,7 +3295,7 @@ body {
 #career-banner
 {
     padding-top: 10vh !important;
-    background: url('../img/Banner/career-banner.png');
+    background: url('../img/banner/career-banner.png');
     background-size: cover;
     height: 75vh;
     background-position: center top;

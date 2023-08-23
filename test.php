@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operation</title>
 
-
     <link rel="stylesheet" href="Assets/css/style.css">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" /> -->
 
 </head>
 
@@ -30,7 +32,7 @@
     <div class="main">
 
         <section id="operationheading" class="panel">
-            <h1 class="text-center">OUR OPERATIONS</h1>
+            <h1 class="text-center">OUR ATIONS</h1>
         </section>
 
 
@@ -222,27 +224,26 @@
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
-    <!-- Smooth Scroll -->
-    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
-
+    
     <!-- gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
     <!-- scroll trigger -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
     <!-- scroll to -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollToPlugin.min.js"></script>
-
+    
     <!-- Gsap Code -->
     <script src="Assets/js/operation-parallax.js"></script>
-
-
+    
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
-
+    
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/275b00d5ce.js" crossorigin="anonymous"></script>
-
+    
+    <!-- Smooth Scroll -->
+    <script src="assets/js/SmoothScrollMouseWheel.js"></script>
 
     <script src="Assets/js/main.js"></script>
 
