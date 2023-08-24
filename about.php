@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
 
-    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="icon" href="assets/img/fav-icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/style.css">
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 
@@ -38,7 +40,7 @@
         <div class="container">
             <div class="aboutcont">
                 <h1>ABOUT <br class="about-head-break"><span>GOLDMINE SANGER</span></h1>
-                <p>Goldminsesanger is a leading gold mining company in Dubai. With decades of experience and a dedicated team of experts, we pride ourselves on being able to offer high quality gold to our customers worldwide. Our modern technologies and sustainable mining practices enable us to extract gold in an efficient and responsible manner. At Goldminsesanger we strive for excellence and strict quality standards to meet the demands of our customers.</p>
+                <p>Goldmine Sanger is a leading gold mining company in Dubai. With decades of experience and a dedicated team of experts, we pride ourselves on being able to offer high-quality gold to our customers worldwide. Our modern technologies and sustainable mining practices enable us to extract gold in an efficient and responsible manner. At Goldminsesanger we strive for excellence and strict quality standards to meet the demands of our customers.</p>
             </div>
         </div>
     </section>
@@ -73,8 +75,8 @@
                             <h2>SANGER AHMADI</h2>
                             <p>CEO - Goldmine Sanger</p>
                             <div class="details">
-                                <p>info@goldminesanger.com</p>
-                                <p class="card-num">+971 50 504 3988</p>
+                                <a href="mailto:info@goldminesanger.com">info@goldminesanger.com</a>
+                                <a href="tel:+971 50 504 3988" class="card-num">+971 50 504 3988</a>
                             </div>
                         </div>
                     </div>
@@ -87,8 +89,8 @@
                             <h2>TANER KISA</h2>
                             <p>CFO - Goldmine Sanger</p>
                             <div class="details">
-                                <p>info@goldminesanger.com</p>
-                                <p class="card-num">+491 76 236 33379</p>
+                                <a href="mailto:info@goldminesanger.com">info@goldminesanger.com</a>
+                                <a href="tel:+491 76 236 33379" class="card-num">+491 76 236 33379</a>
                             </div>
                         </div>
                     </div>
@@ -192,7 +194,7 @@
     <script src="https://kit.fontawesome.com/275b00d5ce.js" crossorigin="anonymous"></script>
 
 
-    <script src="Assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 

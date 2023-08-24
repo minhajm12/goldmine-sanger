@@ -11,16 +11,16 @@
                 <div class="left">
                     <div>
                         <i class="fa-solid fa-envelope"></i>
-                        <p>info@goldminesanger.com</p>
+                        <a href="mailto:info@goldminesanger.com">info@goldminesanger.com</a>
                     </div>
                     <div>
                         <i class="fa-solid fa-phone"></i>
-                        <p>+971 50 504 3988</p>
+                        <a href="tel:+971 50 504 3988">+971 50 504 3988</a>
                     </div>
                 </div>
                 <div class="right">
                     <a href="#">
-                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
                     </a>
                     <a href="#">
                         <i class="fa-brands fa-whatsapp"></i>
@@ -35,8 +35,8 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="Assets/img/logo/logo-main.png" width="100%" alt="">
+            <a class="navbar-brand" href="index.php">
+                <img src="assets/img/logo/logo-main.png" width="100%" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
@@ -67,6 +67,9 @@
                     <li class="nav-item nav-contact">
                         <a class="nav-link" href="request.php">REQUEST NOW</a>
                     </li>
+                    <li class="nav-item trans">
+
+                    </li>
                     <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Dropdown
@@ -94,3 +97,21 @@
 
 
 <!-- HEADER SECTION -->
+
+
+
+
+<div id="goldmine-preloader" class="goldmine-preloader">
+    <div class="main-items">
+        <img src="assets/img/logo/loader-logo.png" alt="" data-aos="zoom-in" data-aos-duration="1000">
+    </div>
+</div>
+
+
+
+
+<script>
+    setTimeout(function() {
+        $('#goldmine-preloader').fadeToggle();
+    }, 1000);
+</script>

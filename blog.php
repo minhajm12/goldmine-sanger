@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     
-    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="icon" href="assets/img/fav-icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 
 
@@ -32,8 +34,13 @@
 
     <section id="blogpagesection">
         <div class="container">
-            <h2>OUR LATEST BLOGS</h2>
-            <div class="blogs mt-5">
+            <!-- <h2>OUR LATEST BLOGS</h2> -->
+
+            <div class="coming-soon">
+                <img src="assets/img/coming-soon.png" alt="">
+            </div>
+
+            <!-- <div class="blogs mt-5">
                 <div class="blogitems">
                     <div class="img-div">
                         <img src="assets/img/blog/blog-1.jpg" alt="">
@@ -64,7 +71,8 @@
                         <a href="" class="blog-btn">Read More</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
         </div>
     </section>
 
@@ -122,7 +130,7 @@
     <script src="https://kit.fontawesome.com/275b00d5ce.js" crossorigin="anonymous"></script>
 
 
-    <script src="Assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 

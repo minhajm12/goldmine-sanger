@@ -56,7 +56,7 @@
                         </div>
                         <div>
                             <i class="fa-solid fa-envelope"></i>
-                            <a href="mailto:">info@goldminesanger.com</a>
+                            <a href="mailto:info@goldminesanger.com">info@goldminesanger.com</a>
                         </div>
                         <div class="align-item-center" style="align-items:center;">
                             <i class="fa-solid fa-phone"></i>

@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goldmine Sanger</title>
-    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="icon" href="assets/img/fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
@@ -98,7 +99,7 @@
                         <h1 class="main-head">About</h1>
                         <h2 class="scnd-head">GOLDMINE SANGER</h2>
                     </div>
-                    <p class="para">Goldminsesanger is a leading gold mining company in Dubai. With decades of experience and a dedicated team of experts, we pride ourselves on being able to offer high quality gold to our customers worldwide. Our modern technologies and sustainable mining practices enable us to extract gold in an efficient and responsible manner. At Goldminsesanger we strive for excellence and strict quality standards to meet the demands of our customers.</p>
+                    <p class="para">Goldmine Sanger is a leading gold mining company in Dubai. With decades of experience and a dedicated team of experts, we pride ourselves on being able to offer high-quality gold to our customers worldwide. Our modern technologies and sustainable mining practices enable us to extract gold in an efficient and responsible manner. At Goldminsesanger we strive for excellence and strict quality standards to meet the demands of our customers.</p>
                     <a href="about.php" class="main-btn"> Read More</a>
                 </div>
             </div>
@@ -129,7 +130,7 @@
 
     <!-- Projects Section -->
 
-    <section id="projectsection">
+    <!-- <section id="projectsection">
         <div class="container">
             <h1 class="sec-main-head">PROJECTS</h1>
 
@@ -139,7 +140,7 @@
 
 
 
-            <!-- <div class="projects">
+            <div class="projects">
                 <a href="#">
                     <div class="project-items">
                         <img src="assets/img/projects/project-2.jpg" alt="" width="100%">
@@ -179,13 +180,13 @@
             </div>
             <div class="projct-btn">
                 <a href="project.php" class="main-btn">View More</a>
-            </div> -->
+            </div>
 
 
 
             
         </div>
-    </section>
+    </section> -->
 
     <!-- End Projects Section -->
 
@@ -196,7 +197,7 @@
     <section id="investorsection">
         <div class="container">
             <div class="investors">
-                <h1>OUR INVESTORS</h1>
+                <h1>INVEST WITH US</h1>
                 <p>Announce your esteemed alliance with us by investing in gold.</p>
 
 
@@ -236,8 +237,9 @@
                         <img src="assets/img/investors/5.png" alt="">
                     </div>
                 </div> -->
+
                 <div class="clnt-btn">
-                    <a href="contact.php" class="banner-btn">INVEST WITH US</a>
+                    <a href="contact.php" class="banner-btn">Invest Now</a>
                 </div>
             </div>
         </div>
@@ -248,7 +250,7 @@
 
     <!-- Blog Section -->
 
-    <section id="blogsection">
+    <!-- <section id="blogsection">
         <div class="container">
             <h1 class="sec-main-head">Blogs & News</h1>
 
@@ -258,7 +260,7 @@
 
 
 
-            <!-- <div class="blogs-main">
+            <div class="blogs-main">
                 <div class="blog-item">
                     <div class="img-div">
                         <img src="assets/img/blog/blog-1.jpg" alt="" width="100%">
@@ -295,12 +297,12 @@
             </div>
             <div class="blog-button mt-4 mt-lg-5">
                 <a href="blog.php" class="main-btn">VIEW ALL</a>
-            </div> -->
+            </div>
 
 
 
         </div>
-    </section>
+    </section> -->
 
     <!-- End Blog Section -->
 
@@ -414,7 +416,7 @@
     <!-- Owl Carousel -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
 
-    <script src="Assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 

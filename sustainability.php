@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sustainability</title>
     
-    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="icon" href="assets/img/fav-icon.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 
 
@@ -107,7 +109,7 @@
     <script src="https://kit.fontawesome.com/275b00d5ce.js" crossorigin="anonymous"></script>
 
 
-    <script src="Assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 

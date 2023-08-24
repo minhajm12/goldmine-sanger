@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
 
-    
-    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="icon" href="assets/img/fav-icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 
 
@@ -79,7 +80,7 @@
         <div class="container">
             <div class="details">
                 <div class="row">
-                    <div class="box col-12 col-lg-4 d-flex align-items-center justify-content-center justify-content-lg-start mb-md-4">
+                    <div class="box col-12 col-lg-4 d-flex align-items-center justify-content-center  justify-content-lg-start align-item-md-start mb-md-4">
                         <div class="cont">
                             <i class="fa-solid fa-location-dot"></i>
                             <p>Al Khabeesi Office 212 - 1, Abdulrahman Hassan Building, Dubai, UAE, P.O Box 215484</p>
@@ -88,13 +89,16 @@
                     <div class="box col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center">
                         <div class="cont">
                             <i class="fa-solid fa-envelope-circle-check"></i>
-                            <p>info@goldminesanger.com</p>
+                            <a href="mailto:info@goldminesanger.com">info@goldminesanger.com</a>
                         </div>
                     </div>
                     <div class="box col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center">
                         <div class="cont">
                             <i class="fa-solid fa-phone"></i>
-                            <p class="cont-number">+971 50 504 3988</p>
+                            <div>
+                                <a href="tel:+971 50 504 3988" class="cont-number">+971 50 504 3988</a>
+                                <a href="tel:+491 76 236 33379" class="cont-number">+491 76 236 33379</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -130,7 +134,7 @@
 
 
 
-    
+
 
 
 
@@ -151,7 +155,7 @@
     <script src="https://kit.fontawesome.com/275b00d5ce.js" crossorigin="anonymous"></script>
 
 
-    <script src="Assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 

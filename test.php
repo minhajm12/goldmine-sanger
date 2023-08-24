@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operation</title>
-
-    <link rel="stylesheet" href="Assets/css/style.css">
-    
+    <meta name="google-translate-customization" content="9f841e7780177523-3214ceb76f765f38-gc38c6fe6f9d06436-c">
+    </meta>
+    <title>Goldmine Sanger</title>
+    <link rel="icon" href="assets/img/fav-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
@@ -20,188 +21,380 @@
 
 
     <!-- Header Section -->
-    <? $page = "operation"; ?>
 
     <?php include 'inc/header.php'; ?>
 
     <!-- End Header Section -->
 
-    <section id="operationbanner" class="panel"></section>
 
 
-    <div class="main">
-
-        <section id="operationheading" class="panel">
-            <h1 class="text-center">OUR ATIONS</h1>
-        </section>
 
 
-        <section id="operationsection" class="panel">
-            <div class="container">
+
+
+    <!-- Banner Section -->
+
+    <section id="banner">
+        <div class="banner-slider">
+            <div class="banner-item">
+                <video class="video-bg" playsinline="true" autoplay muted loop>
+                    <source src="assets/img/video/bg-video-1.mp4" type="video/mp4">
+                </video>
+                <div class="container">
+                    <div class="banner-content">
+                        <h1>Goldmine Sanger <br><span>Striving For Excellence</span></h1>
+                        <p>We take your needs to quality experience in its true value.</p>
+                        <a href="about.php" class="banner-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-gold">
+            <div class="gold-updates">
                 <div class="row">
-                    <div class="col-12 col-lg-6 left ">
-                        <div class="content">
-                            <span class="cont-bg"></span>
-                            <h2 class="mb-3">MINING AREAS</h2>
-                            <p>We begin our journey by thoroughly exploring and evaluating potential gold deposits in Afghanistan through the expertise of our geologists and mining specialists. Carefully analyzing geological data helps us identify promising mining locations.</p><br>
-                            <p>Our priority is to minimize the impact on the environment, focusing on areas with sensitivity. We strictly adhere to guidelines that ensure minimal disruption to ecosystems. This approach reflects our commitment to responsible mining practices.</p>
+                    <div class="col-4">
+                        <div class="item">
+                            <h2>NYSE</h2>
+                            <div class="details">
+                                <p class="">NEM $39.91</p>
+                                <p class="update-grm">0.18%</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/operation-1.jpg" alt="" width="100%">
+                    <div class="col-4">
+                        <div class="item">
+                            <h2>SPOT GOLD</h2>
+                            <div class="details">
+                                <p class="">$1924.10</p>
+                                <p class="update-grm">0.18%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="item">
+                            <h2>TSX</h2>
+                            <div class="details">
+                                <p class="">NGT $53.38</p>
+                                <p class="update-grm">0.18%</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="operationsection" class="panel">
-            <div class="container">
-                <div class="row flex-row-reverse">
-                    <div class="col-12 col-lg-6 left ">
-                        <div class="content">
-                            <span class="cont-bg-rev"></span>
-                            <h2 class="mb-3">RESPONSIBLE SOURCING</h2>
-                            <p>After identifying the sites, we implement responsible extraction methods and leverage advanced machinery to optimize productivity while minimizing harm to the environment.</p><br>
-                            <p>Our utmost concern is the well-being of our workforce, and we enforce rigorous safety measures to ensure the protection of our employees throughout the mining operations.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/operation-2.jpg" alt="" width="100%">
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- End Banner Section -->
 
-        <section id="operationsection" class="panel">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-6 left ">
-                        <div class="content">
-                            <span class="cont-bg"></span>
-                            <h2 class="mb-3">ORE PROCESSING</h2>
-                            <p>After extraction, the ore containing gold is transported to our cutting-edge processing facilities.</p><br>
-                            <p>At these facilities, we employ the most up-to-date technology and eco-conscious methods to separate gold from the ore, with a focus on waste reduction and optimizing the recovery rate.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/operation-3.jpg" alt="" width="100%">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="operationsection" class="panel">
-            <div class="container">
-                <div class="row flex-row-reverse">
-                    <div class="col-12 col-lg-6 left ">
-                        <div class="content">
-                            <span class="cont-bg-rev"></span>
-                            <h2 class="mb-3">QUALITY ASSURANCE</h2>
-                            <p>Our primary emphasis is on maintaining high quality. Throughout the processing stage, we conduct thorough quality assurance examinations to verify the purity and genuineness of the extracted gold.</p><br>
-                            <p>Equipped with state-of-the-art testing tools, our laboratories meticulously analyze each batch to ensure that it aligns with the most stringent global benchmarks.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/operation-4.jpg" alt="" width="100%">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="operationsection" class="panel">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-6 left ">
-                        <div class="content">
-                            <span class="cont-bg"></span>
-                            <h2 class="mb-3">TRANSPARENT SUPPLY CHAIN</h2>
-                            <p>We uphold an ethical and transparent supply chain through active involvement with local communities and government entities, fostering equitable practices and advocating for social responsibility.</p><br>
-                            <p>Our esteemed refinery plays a pivotal role in guaranteeing that the gold we generate is sourced and processed in a responsible manner.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/operation-5.jpg" alt="" width="100%">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="operationsection" class="panel">
-            <div class="container">
-                <div class="row flex-row-reverse">
-                    <div class="col-12 col-lg-6 left ">
-                        <div class="content">
-                            <span class="cont-bg-rev"></span>
-                            <h2 class="mb-3">INTERNATIONAL DISTRIBUTION</h2>
-                            <p>Situated strategically in Dubai, a prominent global trading center, our headquarters have facilitated the establishment of a resilient international distribution network.</p><br>
-                            <p>Our gold items are meticulously transported across the globe, adhering to strict adherence to international trade mandates and security protocols to ensure their safety.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/operation-6.jpg" alt="" width="100%">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="operationsection" class="panel">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-6 left">
-                        <div class="content">
-                            <span class="cont-bg"></span>
-                            <h2 class="mb-3">CUSTOMER SATISFACTION</h2>
-                            <p>Our customers' contentment takes precedence. We take pride in providing superior gold products that precisely cater to the unique requirements of our diverse clientele, spanning from central banks to various industrial sectors.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/operation-7.jpg" alt="" width="100%">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="operationsection" class="panel">
-            <div class="container">
-                <div class="row flex-row-reverse">
-                    <div class="col-12 col-lg-6 left">
-                        <div class="content">
-                            <span class="cont-bg-rev"></span>
-                            <h2 class="mb-3">ENVIRONMENTAL RESPONSIBILITY</h2>
-                            <p>Goldminesanger is dedicated to creating a beneficial influence on both communities and the environment.</p><br>
-                            <p>We allocate resources towards social development projects and environmental endeavors, ensuring that our commitment results in a sustainable and positive influence over time.</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 right">
-                        <img src="assets/img/operations/operation-8.jpg" alt="" width="100%">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
-
+    <div id="google_translate_element">
     </div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+            }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- About Section -->
+
+    <section id="aboutsection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 left">
+                    <img src="assets/img/about-2.png" alt="" class="abt-img-1">
+                    <img src="assets/img/about-1.jpg" alt="" class="abt-img-2">
+                </div>
+                <div class="col-12 col-lg-6 right">
+                    <div>
+                        <h1 class="main-head">About</h1>
+                        <h2 class="scnd-head">GOLDMINE SANGER</h2>
+                    </div>
+                    <p class="para">Goldmine Sanger is a leading gold mining company in Dubai. With decades of experience and a dedicated team of experts, we pride ourselves on being able to offer high-quality gold to our customers worldwide. Our modern technologies and sustainable mining practices enable us to extract gold in an efficient and responsible manner. At Goldminsesanger we strive for excellence and strict quality standards to meet the demands of our customers.</p>
+                    <a href="about.php" class="main-btn"> Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End About Section -->
+
+
+
+    <!-- CTA Section -->
+
+    <section id="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 left"></div>
+                <div class="col-12 col-lg-6 right">
+                    <h1>EXTRACTING STONES<br>WITH LATEST TECHNIQUES</h1>
+                    <p class="para">A clear strategy focused on sustained value creation.</p>
+                    <a href="contact.php" class="cta-btn">CONTACT US</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End CTA Section -->
+
+
+    <!-- Projects Section -->
+
+    <section id="projectsection">
+        <div class="container">
+            <h1 class="sec-main-head">PROJECTS</h1>
+
+            <div class="coming-soon">
+                <img src="assets/img/coming-soon.png" alt="">
+            </div>
+
+
+
+            <!-- <div class="projects">
+                <a href="#">
+                    <div class="project-items">
+                        <img src="assets/img/projects/project-2.jpg" alt="" width="100%">
+                        <div class="contents">
+                            <h1>Mining Area - 1</h1>
+                            <p>Learn about opportunities to join our dynamic, high-performance culture, and hear what employees say about working at Kinross</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="project-items">
+                        <img src="assets/img/projects/project-3.jpg" alt="" width="100%">
+                        <div class="contents">
+                            <h1>Mining Area - 2</h1>
+                            <p>Learn about opportunities to join our dynamic, high-performance culture, and hear what employees say about working at Kinross.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="project-items">
+                        <img src="assets/img/projects/project-1.jpg" alt="" width="100%">
+                        <div class="contents">
+                            <h1>Mining Area - 3</h1>
+                            <p>Learn about opportunities to join our dynamic, high-performance culture, and hear what employees say about working at Kinross.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="project-items">
+                        <img src="assets/img/projects/project-4.jpg" alt="" width="100%">
+                        <div class="contents">
+                            <h1>Mining Area - 3</h1>
+                            <p>Learn about opportunities to join our dynamic, high-performance culture, and hear what employees say about working at Kinross.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="projct-btn">
+                <a href="project.php" class="main-btn">View More</a>
+            </div> -->
+
+
+
+
+        </div>
+    </section>
+
+    <!-- End Projects Section -->
+
+
+
+    <!-- Investors Section -->
+
+    <section id="investorsection">
+        <div class="container">
+            <div class="investors">
+                <h1>OUR INVESTORS</h1>
+                <p>Announce your esteemed alliance with us by investing in gold.</p>
+
+
+                <!-- <div class="top owl-carousel">
+                    <div class="item">
+                        <img src="assets/img/investors/1.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/investors/2.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/investors/3.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/investors/4.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="assets/img/investors/5.png" alt="">
+                    </div>
+                </div> -->
+
+
+                <!-- <div class="bottom owl-carousel">
+                    <div>
+                        <img src="assets/img/investors/1.png" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/img/investors/2.png" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/img/investors/3.png" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/img/investors/4.png" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/img/investors/5.png" alt="">
+                    </div>
+                </div> -->
+
+                <div class="clnt-btn">
+                    <a href="contact.php" class="banner-btn">INVEST WITH US</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Investors Section -->
+
+
+    <!-- Blog Section -->
+
+    <section id="blogsection">
+        <div class="container">
+            <h1 class="sec-main-head">Blogs & News</h1>
+
+            <div class="coming-soon">
+                <img src="assets/img/coming-soon.png" alt="">
+            </div>
+
+
+
+            <!-- <div class="blogs-main">
+                <div class="blog-item">
+                    <div class="img-div">
+                        <img src="assets/img/blog/blog-1.jpg" alt="" width="100%">
+                        <p class="new-blog">New</p>
+                    </div>
+                    <div class="blog-contents">
+                        <h2>Guided by Local Stakeholders</h2>
+                        <p>Learn about opportunities to join our dynamic, high performance culture, and hear what employees say about working at Kinross.</p>
+                        <a href="" class="blog-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="img-div">
+                        <img src="assets/img/blog/blog-2.jpg" alt="" width="100%">
+                        <p class="new-blog">New</p>
+                    </div>
+                    <div class="blog-contents">
+                        <h2>Guided by Local Stakeholders</h2>
+                        <p>Learn about opportunities to join our dynamic, high performance culture, and hear what employees say about working at Kinross.</p>
+                        <a href="" class="blog-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="blog-item">
+                    <div class="img-div">
+                        <img src="assets/img/blog/blog-3.jpg" alt="" width="100%">
+                        <p class="new-blog">New</p>
+                    </div>
+                    <div class="blog-contents">
+                        <h2>Guided by Local Stakeholders</h2>
+                        <p>Learn about opportunities to join our dynamic, high performance culture, and hear what employees say about working at Kinross.</p>
+                        <a href="" class="blog-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-button mt-4 mt-lg-5">
+                <a href="blog.php" class="main-btn">VIEW ALL</a>
+            </div> -->
+
+
+
+        </div>
+    </section>
+
+    <!-- End Blog Section -->
 
 
 
 
 
+    <!-- Contact Section -->
+
+    <section id="contactsection">
+        <span class="cont-bg"></span>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 left">
+                    <form>
+                        <h2>INVEST IN THE TEAM<br>CONNECT WITH US</h2>
+                        <div class="mb-4 mt-4">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="mb-4">
+                            <input type="text" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="mb-4">
+                            <textarea name="" id="" cols="" rows="5" placeholder="Your Comment"></textarea>
+                        </div>
+                        <button type="submit" class="main-btn">Submit</button>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-6 right">
+                    <h2>GET IN TOUCH</h2>
+                    <p>discover the whole new experience of being a gold investor and promoting a better future for all local communities and the environment.</p>
+                    <div class="align-items-start">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="location-add">Al Khabeesi Office 212 - 1, Abdulrahman Hassan Building, Dubai, UAE, P.O Box 215484</p>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:info@goldminesanger.com" class="mail">info@goldminesanger.com</a>
+                    </div>
+
+                    <div class="align-item-center" style="align-items:center;">
+                        <i class="fa-solid fa-phone"></i>
+                        <a class="cntct-nmbr" href="tel:+971 50 504 3988">+971 50 504 3988</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Contact Section -->
 
 
+    <!-- Career Section -->
 
+    <section id="careersection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6 left">
+                    <div>
+                        <h1 class="main-head">Explore Career</h1>
+                        <h2 class="scnd-head">OPPORTUNITIES</h2>
+                    </div>
+                    <p>Learn about opportunities to join our dynamic, high-performance culture, and hear what employees say about working at Kinross.</p>
+                    <a href="career.php" class="main-btn"> Read More</a>
+                </div>
+                <div class="col-12 col-lg-6 right">
+                    <div class="image-div">
+                        <img src="assets/img/career/career-1.png" alt="" width="100%" class="img-1">
+                        <img src="assets/img/career/career-2.png" alt="" width="100%" class="img-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-
-
-
-    <!-- scnd cta Section -->
-
-    <?php include 'inc/scnd-cta.php'; ?>
-
-    <!-- End scnd cta Section -->
-
-
+    <!-- End Career Section -->
 
 
     <!-- Footer Section -->
@@ -217,40 +410,27 @@
 
 
     <script>
-        document.querySelectorAll('.op-nav-link').forEach((item) => item.classList.add('active'));
-        document.querySelectorAll('.scndctasection').forEach((item) => item.classList.add('panel'));
+        document.querySelectorAll('.hm-nav-link').forEach((item) => item.classList.add('active'));
     </script>
 
-    <!-- JQuery -->
+
+    <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
-    
-    <!-- gsap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
-    <!-- scroll trigger -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
-    <!-- scroll to -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollToPlugin.min.js"></script>
-    
-    <!-- Gsap Code -->
-    <script src="Assets/js/operation-parallax.js"></script>
-    
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
-    
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/275b00d5ce.js" crossorigin="anonymous"></script>
-    
+
     <!-- Smooth Scroll -->
     <script src="assets/js/SmoothScrollMouseWheel.js"></script>
 
-    <script src="Assets/js/main.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/275b00d5ce.js" crossorigin="anonymous"></script>
 
+    <!-- Owl Carousel -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
 
-
-
-
+    <script src="assets/js/main.js"></script>
 
 </body>
 

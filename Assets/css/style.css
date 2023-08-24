@@ -33,6 +33,58 @@ body {
 
 
 
+#goldmine-preloader
+{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#goldmine-preloader .main-items
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#goldmine-preloader .main-items img
+{
+    width: 50%;
+    animation: fade 2s ease-in-out;
+}
+
+@keyframes fade
+{
+    0%
+    {
+        transform: scale(1);
+        opacity: 0;
+    }
+    50%
+    {
+        transform: scale(1.1);
+        opacity:1;
+    }
+    100%
+    {
+        transform: scale(1.1);
+        opacity:1;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
 
 /* TOP BAR HEADER  */
 
@@ -73,10 +125,11 @@ body {
     color: #fff;
 }
 
-#top-header .top-items .left div p {
+#top-header .top-items .left div a {
     margin: 0 !important;
     color: #fff;
     font-weight: 400 !important;
+    text-decoration: none;
 }
 
 #top-header .top-items .right {
@@ -103,6 +156,10 @@ body {
 #top-header .top-items .right i:hover {
     color: #E8A917;
 }
+
+
+
+
 
 
 
@@ -144,7 +201,7 @@ body {
     border-radius: 40px;
     padding: 10px 30px;
     text-transform: uppercase;
-    font-weight: 600 !important;
+    font-weight: 500 !important;
     color: #fff;
     background-size: 100% auto;
     transition: .3s ease;
@@ -485,13 +542,14 @@ body {
 #projectsection {
     padding: 8% 0;
 }
-#projectsection .coming-soon
+.coming-soon
 {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top:20px;
 }
+
 
 .sec-main-head {
     font-size: 35px;
@@ -560,15 +618,12 @@ body {
 
 
 
-
-
-
 /* INVESTORS SECTION */
 
-/* #investorsection
+#investorsection
 {
-    padding:4% 0;
-} */
+    padding:12% 0 6% 0;
+}
 #investorsection .investors {
     background: url('../img/investors/invest-bg.jpg');
     background-size: cover;
@@ -624,13 +679,6 @@ body {
 
 #blogsection {
     padding: 8% 0;
-}
-#blogsection .coming-soon
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:20px;
 }
 #blogsection .blogs-main {
     display: grid;
@@ -1155,6 +1203,18 @@ body {
         transform: translateY(0);
         gap: 10px;
     }
+    #projectsection
+    {
+        padding: 12% 0;
+    }
+    .coming-soon img
+    {
+        width: 100%;
+    }
+    .coming-soon
+    {
+        margin-top:10px !important;
+    }
 
 
 
@@ -1201,6 +1261,12 @@ body {
         margin-top: 40px;
     }
 
+
+
+    #blogsection
+    {
+        padding: 12% 0;
+    }
 
 
 
@@ -1322,7 +1388,11 @@ body {
     }
 
 
-
+    .coming-soon
+    {
+        margin-top:0px !important;
+        padding: 0 20px;
+    }
 
 
     #cta-section .right {
@@ -1354,11 +1424,11 @@ body {
 
 
     #projectsection {
-        padding: 10% 0;
+        padding: 18% 0;
     }
 
     .sec-main-head {
-        font-size: 26px;
+        font-size: 24px;
     }
 
     #projectsection .projects {
@@ -1416,12 +1486,16 @@ body {
     {
         margin:20px 0;
     }
+    #investorsection .investors h1
+    {
+        font-size: 26px;
+    }
 
 
 
 
     #blogsection {
-        padding: 10% 0;
+        padding: 18% 0;
     }
 
     #blogsection .blogs-main {
@@ -1514,6 +1588,8 @@ body {
 
     #footersection .copyright p {
         font-size: 12px;
+        padding: 5px 10px;
+        line-height: 16px;
     }
     #footersection .footer-brand img
     {
@@ -1634,11 +1710,14 @@ body {
     background: #E8A917;
     margin: 10px 80px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
-#teamsection .item-card .card-cont .details p {
+#teamsection .item-card .card-cont .details a {
     color: #fff;
     font-size: 16px;
+    text-decoration: none;
 }
 #teamsection .item-card .card-cont .country
 {
@@ -2054,6 +2133,14 @@ body {
         font-weight: 300 !important;
     }
 
+    #about-contents .aboutcont h1
+    {
+        font-size: 26px;
+    }
+    #about-contents .aboutcont span
+    {
+        font-size: 32px;
+    }
 
 }
 
@@ -2289,7 +2376,7 @@ body {
 
 #projectmainsec
 {
-    padding:4% 0;
+    padding:14% 0 10% 0;
 }
 #projectmainsec .project-items-main
 {
@@ -2371,7 +2458,10 @@ body {
         font-size: 26px;
         font-weight: 600 !important;
     }
-    
+    #projectmainsec
+    {
+        padding: 18% 0;
+    }
 }
 
 
@@ -2567,11 +2657,24 @@ body {
     font-weight: 400 !important;
     color: #000;
     font-size: 18px;
+    text-decoration: none;
+}
+#contact-details .details a {
+    font-weight: 400 !important;
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 #contact-details .details .cont .cont-number {
-    font-weight: 700 !important;
-    font-size: 22px;
+    font-weight: 600 !important;
+    font-size: 18px;
+    text-decoration: none;
+}
+#contact-details .details .cont div
+{
+    display: flex;
+    flex-direction: column;
 }
 
 .cont-head-br {
@@ -2623,6 +2726,14 @@ body {
 
     #contact-details .details .cont i {
         font-size: 26px;
+    }
+    #contact-details .details
+    {
+        padding: 40px;;
+    }
+    #contact-details .details .cont p
+    {
+        padding-right:80px;
     }
 
     #contact-details {
@@ -2682,7 +2793,10 @@ body {
     #contact-details .details p {
         font-size: 16px;
     }
-
+    #contact-details .details .cont p
+    {
+        padding: 0 !important;
+    }
     #contact-details .details .box {
         justify-content: flex-start !important;
     }
@@ -2957,11 +3071,24 @@ body {
     #requestbanner p
     {
         text-align: center;
+        padding: 0 30px !important;
+        line-height: 20px;
+        margin-top: 10px !important;
     }
     #requestbanner
     {
         height: 50vh;
     }
+
+    input::placeholder, textarea::placeholder
+    {
+        font-size: 15px;
+    }
+    input::-ms-value
+    {
+        font-size: 12px !important;
+    }
+    
 }
 
 
@@ -3039,7 +3166,7 @@ body {
 
 #blogpagesection
 {
-    padding:8% 0 6% 0;
+    padding:14% 0 10% 0;
 }
 #blogpagesection .blogs
 {
@@ -3098,6 +3225,10 @@ body {
     {
         grid-template-columns: 1fr 1fr;
     }
+    #blogpagesection
+    {
+        padding:18% 0 !important;
+    }
 }
 
 
@@ -3107,6 +3238,16 @@ body {
     {
         grid-template-columns: 1fr;
     }
+    #blogsec-banner h1
+    {
+        font-size: 40px;
+        font-weight: 600 !important;
+    }
+    #blogpagesection h2
+    {
+        font-size: 30px;
+    }
+    
 }
 
 
@@ -3424,5 +3565,9 @@ body {
         margin:40px 0;
         grid-template-columns: 1fr;
         padding:0 20px;
+    }
+    #career-banner h1
+    {
+        font-size: 30px;
     }
 }
