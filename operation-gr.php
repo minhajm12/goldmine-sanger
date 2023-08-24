@@ -29,7 +29,7 @@
 
     <section id="operationbanner" class="panel">
         <span></span>
-        <h1>OUR PROJECTS</h1>
+        <h1>BETRIEB</h1>
     </section>
 
 

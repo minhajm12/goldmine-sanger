@@ -27,13 +27,8 @@
 
 
     <section id="aboutpage-banner">
-        <div class="about-page-banner">
-            <div class="container">
-                <div class="banner-cont">
-                    <h1></h1>
-                </div>
-            </div>
-        </div>
+        <span></span>
+        <h1>WER WIR SIND</h1>
     </section>
 
 

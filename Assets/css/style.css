@@ -1689,14 +1689,35 @@ section
 
 
 /* ABOUT PAGE CSS */
-.about-page-banner {
+#aboutpage-banner {
+    padding-top: 10vh !important;
     background: url(../img/banner/banner-3.jpg);
     background-position: center;
     background-size: cover;
     height: 75vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#aboutpage-banner span
+{
+    background: #00000080;
+    width: 100%;
+    height: 100%;
+    top:0;
+    position: absolute;
+}
+#aboutpage-banner h1
+{
+    font-size: 60px;
+    color: #fff;
+    z-index: 3;
+    font-weight: 600 !important;
 }
 
-.about-page-banner .banner-cont {
+
+/* .about-page-banner .banner-cont {
     height: 60vh;
     display: flex;
     align-items: center;
@@ -1706,7 +1727,7 @@ section
 .about-page-banner .banner-cont h1 {
     font-size: 40px;
     text-transform: uppercase;
-}
+} */
 
 
 
@@ -1994,9 +2015,13 @@ section
 
 @media only screen and (max-width: 992px)
 {
-    .about-page-banner
+    #aboutpage-banner
     {
         height: 65vh;
+    }
+    #aboutpage-banner h1
+    {
+        font-size: 40px;
     }
     #about-contents .aboutcont h1 {
         font-size: 34px;
@@ -2079,6 +2104,10 @@ section
 
 
 @media only screen and (max-width: 768px) {
+    #aboutpage-banner h1
+    {
+        font-size: 30px;
+    }
     #about-contents .aboutcont p {
         padding: 0;
         margin-top: 10px !important;
