@@ -8,51 +8,51 @@
                     <div class="footer-brand">
                         <img src="assets/img/logo/footer-logo.png" alt="">
                     </div>
-                    <p class="text-white">Goldmine Sanger is a leading gold mining company in Dubai. With decades of experience and a dedicated team of experts.</p>
+                    <p class="text-white">Goldmine Sanger ist ein führendes Goldminenunternehmen in Dubai. Mit jahrzehntelanger Erfahrung und einem engagierten Team von Experten.</p>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 foot-2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-                    <h3>QUICK LINKS</h3>
+                    <h3>SCHNELLE LINKS</h3>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="index.php" class="nav-link">Home</a>
+                            <a href="index-gr.php" class="nav-link">Startseite</a>
                         </li>
                         <li class="nav-item">
-                            <a href="about.php" class="nav-link">About</a>
+                            <a href="about-gr.php" class="nav-link">Über uns</a>
                         </li>
                         <li class="nav-item">
-                            <a href="operation.php" class="nav-link">Operations</a>
+                            <a href="operation-gr.php" class="nav-link">Betrieb</a>
                         </li>
                         <li class="nav-item">
-                            <a href="project.php" class="nav-link">Projects</a>
+                            <a href="project-gr.php" class="nav-link">Projekte</a>
                         </li>
                         <li class="nav-item">
-                            <a href="sustainability.php" class="nav-link">Sustainability</a>
+                            <a href="sustainability-gr.php" class="nav-link">Nachhaltigkeit</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 foot-3" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-                    <h3>USEFULL LINKS</h3>
+                    <h3>NÜTZLICHE LINKS</h3>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="request.php" class="nav-link">Request Now</a>
+                            <a href="request-gr.php" class="nav-link">Jetzt anfragen</a>
                         </li>
                         <li class="nav-item">
-                            <a href="blog.php" class="nav-link">Blogs / News</a>
+                            <a href="blog-gr.php" class="nav-link">Blogs / Nachrichten</a>
                         </li>
                         <li class="nav-item">
-                            <a href="career.php" class="nav-link">Career</a>
+                            <a href="career-gr.php" class="nav-link">Karriere</a>
                         </li>
                         <li class="nav-item">
-                            <a href="contact.php" class="nav-link">Contact</a>
+                            <a href="contact-gr.php" class="nav-link">Kontakt</a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3 foot-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
-                    <h3>MORE INFO</h3>
+                    <h3>MEHR INFO</h3>
                     <div class="contact">
                         <div class="align-items-start">
                             <i class="fa-solid fa-location-dot"></i>
-                            <p class="footer-addrs">Al Khabeesi Office 212 - 1, Abdulrahman Hassan Building, Dubai, UAE, P.O Box 215484</p>
+                            <p class="footer-addrs">Al Khabeesi Büro 212 - 1, Abdulrahman Hassan Gebäude, Dubai, UAE, Postfach 215484</p>
                         </div>
                         <div>
                             <i class="fa-solid fa-envelope"></i>
@@ -87,8 +87,6 @@
 
 
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <!-- AOS -->
-<script>
-    AOS.init();
-</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+

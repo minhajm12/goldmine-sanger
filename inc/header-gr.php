@@ -35,7 +35,7 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.php">
+            <a class="navbar-brand" href="index-gr.php">
                 <img src="assets/img/logo/logo-main.png" width="100%" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,29 +47,29 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link hm-nav-link" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link hm-nav-link" aria-current="page" href="index-gr.php">Startseite</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ab-nav-link" href="about.php">About us</a>
+                        <a class="nav-link ab-nav-link" href="about-gr.php">Über uns</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link op-nav-link" href="operation.php">Operation</a>
+                        <a class="nav-link op-nav-link" href="operation-gr.php">Betrieb</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pr-nav-link" href="project.php">Projects</a>
+                        <a class="nav-link pr-nav-link" href="project-gr.php">Projekte</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link sus-nav-link" href="sustainability.php">Sustainability</a>
+                        <a class="nav-link sus-nav-link" href="sustainability-gr.php">Nachhaltigkeit</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link cnt-nav-link" href="contact.php">Contact Us</a>
+                        <a class="nav-link cnt-nav-link" href="contact-gr.php">Kontakt</a>
                     </li>
                     <li class="nav-item nav-contact">
-                        <a class="nav-link" href="request.php">REQUEST NOW</a>
+                        <a class="nav-link" href="request-gr.php">Jetzt anfragen</a>
                     </li>
                     <li class="nav-item trans">
                         <div class="lang-btn">
-                            <button id="myButton">GER</button>
+                            <button id="myButton">ENG</button>
                         </div>
                     </li>
                     <!-- <li class="nav-item dropdown">
@@ -117,7 +117,3 @@
         $('#goldmine-preloader').fadeToggle();
     }, 1000);
 </script>
-
-
-
-

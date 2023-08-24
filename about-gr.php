@@ -21,7 +21,7 @@
 
     <!-- Header Section -->
 
-    <?php include 'inc/header.php'; ?>
+    <?php include 'inc/header-gr.php'; ?>
 
     <!-- End Header Section -->
 
@@ -41,8 +41,8 @@
     <section id="about-contents">
         <div class="container">
             <div class="aboutcont" data-aos="fade-up" data-aos-duration="1000">
-                <h1>ABOUT <br class="about-head-break"><span>GOLDMINE SANGER</span></h1>
-                <p>Goldmine Sanger is a leading gold mining company in Dubai. With decades of experience and a dedicated team of experts, we pride ourselves on being able to offer high-quality gold to our customers worldwide. Our modern technologies and sustainable mining practices enable us to extract gold in an efficient and responsible manner. At Goldminsesanger we strive for excellence and strict quality standards to meet the demands of our customers.</p>
+                <h1>ÜBER UNS <br class="about-head-break"><span>GOLDMINE SANGER</span></h1>
+                <p>Goldmine Sanger ist ein führendes Goldminenunternehmen in Dubai. Mit jahrzehntelanger Erfahrung und einem engagierten Team von Experten sind wir stolz darauf, hochwertiges Gold an unsere Kunden weltweit anbieten zu können. Unsere modernen Technologien und nachhaltigen Bergbaupraktiken ermöglichen es uns, Gold auf effiziente und verantwortungsbewusste Weise zu fördern. Bei Goldmine Sanger streben wir nach Exzellenz und strikten Qualitätsstandards, um den Anforderungen unserer Kunden gerecht zu werden.</p>
             </div>
         </div>
     </section>
@@ -50,14 +50,14 @@
 
 
 
-    <!-- CEO MESSAGE SECTION -->
+    <!-- MISSION SECTION -->
     <section id="ceomessage">
         <div class="container">
             <div class="message" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Mission</h2>
-                <p>Our mission is to ensure that gold is extracted responsibly and sustainably from our mines while minimising environmental impact.</p>
+                <p>Unsere Mission ist es sicherzustellen, dass Gold verantwortungsbewusst und nachhaltig aus unseren Minen gewonnen wird, wobei die Umweltauswirkungen minimiert werden.</p>
                 <h2 class="mt-4">Vision</h2>
-                <p>And we vision to be one of the largest mining companies that ensures all communities and‌ nature are well protected. By upholding these values, Goldmine Sanger can make a positive difference in the world while also creating a successful business.</p>
+                <p>Und wir haben die Vision, eines der größten Bergbauunternehmen zu sein, das sicherstellt, dass alle Gemeinschaften und die Natur gut geschützt sind. Durch die Aufrechterhaltung dieser Werte kann Goldmine Sanger einen positiven Unterschied in der Welt bewirken und gleichzeitig ein erfolgreiches Unternehmen schaffen.</p>
             </div>
         </div>
     </section>
@@ -111,9 +111,9 @@
                     <div class="row">
                         <div class="col-12 col-lg-4 left"></div>
                         <div class="col-12 col-lg-8 right">
-                            <h1>EXTRACTING STONES<br>WITH LATEST TECHNIQUES</h1>
-                            <p class="para">A clear strategy focused on sustained value creation.</p>
-                            <a href="contact.php" class="cta-btn">CONTACT US</a>
+                            <h1>STEINE EXTRAKTIEREN<br>MIT NEUESTEN TECHNIKEN</h1>
+                            <p class="para">Eine klare Strategie mit Fokus auf nachhaltiger Wertschöpfung.</p>
+                            <a href="contact-gr.php" class="cta-btn">KONTAK</a>
                         </div>
                     </div>
                 </div>
@@ -130,16 +130,16 @@
 
     <section id="philosophysection">
         <div class="container">
-            <h1>Our Philosophy</h1>
+            <h1>Unsere Philosophie</h1>
             <div class="first-row row">
                 <div class="col-12 col-lg-6 left" data-aos="fade-right" data-aos-duration="1000">
                     <img src="assets/img/about-page/philosophy-1.png" alt="" class="phil-img-1">
                     <img src="assets/img/about-page/stroke.png" alt="" class="phil-img-2">
                 </div>
                 <div class="col-12 col-lg-6 right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                    <p class="mt-4">Our gold deposits are located in some of the most prolific locations in the world. Our dedicated teams of geological experts use the latest technology and proven methods to extract gold of the highest quality. We attach great importance to sustainability and environmental protection in order to preserve nature and the communities in which we work.</p>
-                    <p class="mt-2">Once the precious gold has been mined, it goes through a rigorous process of further processing. Our experienced team of professionals handle purification, refining and quality control to ensure only the purest, highest quality gold is available to our customers.</p>
-                    <p class="mt-2">The gold is melted in Dubai and minted as gold bars with our certification, so our bars meet international standards. With a wide range of bar sizes, we offer our customers the flexibility required for their individual needs. Whether you are an individual looking to invest in precious gold or a company, we always have the perfect solution for you.</p>
+                    <p class="mt-4">Unsere Goldvorkommen befinden sich an einigen der fruchtbarsten Orte der Welt. Unsere engagierten Teams von geologischen Experten nutzen die neueste Technologie und bewährte Methoden, um Gold von höchster Qualität zu gewinnen. Wir legen großen Wert auf Nachhaltigkeit und Umweltschutz, um die Natur und die Gemeinschaften, in denen wir arbeiten, zu erhalten.</p>
+                    <p class="mt-2">Sobald das kostbare Gold abgebaut wurde, durchläuft es einen strengen Prozess der weiteren Verarbeitung. Unser erfahrenes Team von Fachleuten kümmert sich um Reinigung, Raffination und Qualitätskontrolle, um sicherzustellen, dass nur das reinste, hochwertigste Gold für unsere Kunden verfügbar ist.</p>
+                    <p class="mt-2">Das Gold wird in Dubai eingeschmolzen und als Goldbarren mit unserer Zertifizierung geprägt, sodass unsere Barren internationale Standards erfüllen. Mit einer breiten Palette von Barrengrößen bieten wir unseren Kunden die Flexibilität, die für ihre individuellen Bedürfnisse erforderlich ist. Ob Sie eine Privatperson sind, die in kostbares Gold investieren möchte, oder ein Unternehmen, wir haben immer die perfekte Lösung für Sie.</p>
                 </div>
             </div>
             <div class="scnd-row row">
@@ -148,9 +148,9 @@
                     <img src="assets/img/about-page/stroke.png" alt="" class="phil-img-2">
                 </div>
                 <div class="col-12 col-lg-6 right" data-aos="fade-right" data-aos-duration="1000">
-                    <p class="mt-4">Our commitment to superior customer service has earned us a loyal global customer base. Our experienced sales team is always available to assist you with your questions and offer you the best deals. We are proud that our customers regard us as a reliable and trustworthy partner in the gold industry.</p>
-                    <p class="mt-2">As an international company, we have developed strong relationships with the best logistics partners to ensure our gold bars reach our customers around the world safely and efficiently. We personally take care of every step of the shipping process to ensure a smooth delivery.</p>
-                    <p class="mt-2">Thank you for visiting our website. We cordially invite you to learn more about our company, our values ​​and our products. We look forward to welcoming you to our ever-growing international family of satisfied customers.</p>
+                    <p class="mt-4">Unsere Verpflichtung zu erstklassigem Kundenservice hat uns eine treue globale Kundenbasis eingebracht. Unser erfahrenes Verkaufsteam steht Ihnen jederzeit zur Verfügung, um Ihre Fragen zu beantworten und Ihnen die besten Angebote zu unterbreiten. Wir sind stolz darauf, dass unsere Kunden uns als zuverlässigen und vertrauenswürdigen Partner in der Goldbranche betrachten.</p>
+                    <p class="mt-2">Als internationales Unternehmen haben wir starke Beziehungen zu den besten Logistikpartnern aufgebaut, um sicherzustellen, dass unsere Goldbarren sicher und effizient zu unseren Kunden auf der ganzen Welt gelangen. Wir kümmern uns persönlich um jeden Schritt des Versandprozesses, um eine reibungslose Lieferung zu gewährleisten.</p>
+                    <p class="mt-2">Vielen Dank für Ihren Besuch auf unserer Website. Wir laden Sie herzlich ein, mehr über unser Unternehmen, unsere Werte und unsere Produkte zu erfahren. Wir freuen uns darauf, Sie in unserer stetig wachsenden internationalen Familie zufriedener Kunden willkommen zu heißen.</p>
                     <p class="mt-3 mt-lg-5 team">- Goldmine Sanger Team</p>
                 </div>
             </div>
@@ -162,7 +162,7 @@
 
     <!-- scnd cta Section -->
 
-    <?php include 'inc/scnd-cta.php'; ?>
+    <?php include 'inc/scnd-cta-gr.php'; ?>
 
     <!-- End scnd cta Section -->
 
@@ -170,7 +170,7 @@
 
     <!-- Footer Section -->
 
-    <?php include 'inc/footer.php'; ?>
+    <?php include 'inc/footer-gr.php'; ?>
 
     <!-- End Footer Section -->
 
@@ -187,7 +187,7 @@
 
         document.getElementById("myButton").addEventListener("click", function() {
             // Replace 'https://www.example.com' with the URL you want to navigate to
-            window.location.href = "about-gr.php";
+            window.location.href = "about.php";
         });
     </script>
 

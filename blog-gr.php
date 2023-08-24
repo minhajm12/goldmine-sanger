@@ -22,7 +22,7 @@
 
     <!-- Header Section -->
 
-    <?php include 'inc/header.php'; ?>
+    <?php include 'inc/header-gr.php'; ?>
 
     <!-- End Header Section -->
 
@@ -30,7 +30,7 @@
 
     <section id="blogsec-banner">
         <span></span>
-        <h1>OUR BLOGS</h1>
+        <h1>UNSERE BLOGS</h1>
     </section>
 
 
@@ -40,7 +40,7 @@
             <!-- <h2>OUR LATEST BLOGS</h2> -->
 
             <div class="coming-soon" data-aos="flip-up" data-aos-duration="1000">
-                <img src="assets/img/coming-soon.png" alt="">
+                <img src="assets/img/coming-soon-gr.png" alt="">
             </div>
 
             <!-- <div class="blogs mt-5">
@@ -86,7 +86,7 @@
 
     <!-- scnd cta Section -->
 
-    <?php include 'inc/scnd-cta.php'; ?>
+    <?php include 'inc/scnd-cta-gr.php'; ?>
 
     <!-- End scnd cta Section -->
 
@@ -97,7 +97,7 @@
 
     <!-- Footer Section -->
 
-    <?php include 'inc/footer.php'; ?>
+    <?php include 'inc/footer-gr.php'; ?>
 
     <!-- End Footer Section -->
 
@@ -117,7 +117,7 @@
         // TRANSLATOR
 
         document.getElementById("myButton").addEventListener("click", function() {
-            window.location.href = "blog-gr.php";
+            window.location.href = "blog.php";
         });
     </script>
 

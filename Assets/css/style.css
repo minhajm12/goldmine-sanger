@@ -32,6 +32,16 @@ body {
 }
 
 
+section
+{
+    overflow: hidden !important;
+}
+
+
+
+
+
+
 
 #goldmine-preloader
 {
@@ -53,7 +63,7 @@ body {
 }
 #goldmine-preloader .main-items img
 {
-    width: 50%;
+    width: 30%;
     animation: fade 2s ease-in-out;
 }
 
@@ -236,6 +246,26 @@ body {
     box-shadow: 0 0 10px #00000020;
 }
 
+#header .trans
+{
+    display: flex;
+}
+#header .trans .lang-btn button
+{
+    border: 1px solid #E8A917;
+    padding:5px 20px;
+    border-radius: 20px;
+    transition: .3s ease;
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600 !important;
+}
+#header .trans .lang-btn button:hover
+{
+    background: #E8A917;
+    color: #fff !important;
+}
 
 
 
@@ -1129,6 +1159,11 @@ body {
 
 
 @media only screen and (max-width: 992px) {
+
+    #goldmine-preloader .main-items img
+    {
+        width: 40%;
+    }
     #top-header {
         display: none !important;
     }
@@ -1140,6 +1175,10 @@ body {
 
     #header .navbar .navbar-brand {
         width: 30%;
+    }
+    #header .trans
+    {
+        margin-top:10px !important;
     }
 
     #banner {
@@ -1289,6 +1328,9 @@ body {
     #footersection .foot-1 {
         padding: 20px 20px 0 40px;
     }
+
+
+    
 }
 
 
@@ -1299,7 +1341,10 @@ body {
 
 
 @media only screen and (max-width: 720px) {
-
+    #goldmine-preloader .main-items img
+    {
+        width: 50%;
+    }
 
     #banner .video-bg {
         height: 70vh;
@@ -1324,8 +1369,8 @@ body {
     }
 
     #banner .banner-item .banner-content {
-        padding-left: 20px;
-        /* margin-top: 200px; */
+        padding-left: 10px;
+        margin-top: 100px;
     }
 
     #banner .bottom-gold {
@@ -1335,7 +1380,7 @@ body {
 
     #banner .bottom-gold .gold-updates {
         margin: 0;
-        padding: 15px 10px;
+        padding: 10px 5px;
         background: #ffffff20;
         border-radius: 10px;
     }
@@ -1489,6 +1534,10 @@ body {
     #investorsection .investors h1
     {
         font-size: 26px;
+    }
+    #investorsection
+    {
+        padding-bottom: 0;
     }
 
 
@@ -2198,6 +2247,24 @@ body {
     background-size: cover;
     height: 75vh;
     background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#operationbanner span
+{
+    background: #00000080;
+    width: 100%;
+    height: 100%;
+    top:0;
+    position: absolute;
+}
+#operationbanner h1
+{
+    font-size: 60px;
+    color: #fff;
+    z-index: 2;
+    font-weight: 600 !important;
 }
 
 #operationsection {
@@ -2279,12 +2346,20 @@ body {
     {
         padding: 0 auto !important;
     }
+    #operationbanner h1
+    {
+        font-size: 45px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     #operationbanner
     {
         background-position:right;
+    }
+    #operationbanner h1
+    {
+        font-size: 30px;
     }
     #operationsection h1 {
         padding-top: 140px;

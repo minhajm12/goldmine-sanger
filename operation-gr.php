@@ -23,20 +23,20 @@
     <!-- Header Section -->
     <? $page = "operation"; ?>
 
-    <?php include 'inc/header.php'; ?>
+    <?php include 'inc/header-gr.php'; ?>
 
     <!-- End Header Section -->
 
     <section id="operationbanner" class="panel">
         <span></span>
-        <h1>OUR OPERATIONS</h1>
+        <h1>OUR PROJECTS</h1>
     </section>
 
 
     <div class="main">
 
         <!-- <section id="operationheading" class="panel">
-            <h1 class="text-center">OUR OPERATIONS</h1>
+            <h1 class="text-center">UNSERE BETRIEBE</h1>
         </section> -->
 
         <section id="operationsection" class="panel">
@@ -45,9 +45,9 @@
                     <div class="col-12 col-lg-6 left ">
                         <div class="content">
                             <span class="cont-bg"></span>
-                            <h2 class="mb-3">MINING AREAS</h2>
-                            <p>We begin our journey by thoroughly exploring and evaluating potential gold deposits in Afghanistan through the expertise of our geologists and mining specialists. Carefully analyzing geological data helps us identify promising mining locations.</p><br>
-                            <p>Our priority is to minimize the impact on the environment, focusing on areas with sensitivity. We strictly adhere to guidelines that ensure minimal disruption to ecosystems. This approach reflects our commitment to responsible mining practices.</p>
+                            <h2 class="mb-3">BERGBAUGEBIETE</h2>
+                            <p>Wir starten unsere Reise, indem wir potenzielle Goldvorkommen in Afghanistan gründlich erkunden und bewerten, dank der Expertise unserer Geologen und Bergbauspezialisten. Durch sorgfältige Analyse geologischer Daten können wir vielversprechende Bergbaustandorte identifizieren.</p><br>
+                            <p>Unsere Priorität liegt darin, die Auswirkungen auf die Umwelt zu minimieren und uns auf sensiblen Gebieten zu konzentrieren. Wir halten uns strikt an Richtlinien, die eine minimale Störung der Ökosysteme sicherstellen. Diese Herangehensweise spiegelt unser Engagement für verantwortungsbewussten Bergbau wider.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
@@ -63,9 +63,9 @@
                     <div class="col-12 col-lg-6 left ">
                         <div class="content">
                             <span class="cont-bg-rev"></span>
-                            <h2 class="mb-3">RESPONSIBLE SOURCING</h2>
-                            <p>After identifying the sites, we implement responsible extraction methods and leverage advanced machinery to optimize productivity while minimizing harm to the environment.</p><br>
-                            <p>Our utmost concern is the well-being of our workforce, and we enforce rigorous safety measures to ensure the protection of our employees throughout the mining operations.</p>
+                            <h2 class="mb-3">VERANTWORTLICHE BESCHAFFUNG</h2>
+                            <p>Nach Identifizierung der Standorte setzen wir verantwortungsbewusste Extraktionsmethoden um und nutzen fortschrittliche Maschinen, um die Produktivität zu optimieren und gleichzeitig die Umweltbelastung zu minimieren.</p><br>
+                            <p>Unsere oberste Priorität ist das Wohlergehen unserer Mitarbeiter, und wir setzen strenge Sicherheitsmaßnahmen durch, um den Schutz unserer Mitarbeiter während des gesamten Bergbaubetriebs sicherzustellen.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
@@ -81,9 +81,9 @@
                     <div class="col-12 col-lg-6 left ">
                         <div class="content">
                             <span class="cont-bg"></span>
-                            <h2 class="mb-3">ORE PROCESSING</h2>
-                            <p>After extraction, the ore containing gold is transported to our cutting-edge processing facilities.</p><br>
-                            <p>At these facilities, we employ the most up-to-date technology and eco-conscious methods to separate gold from the ore, with a focus on waste reduction and optimizing the recovery rate.</p>
+                            <h2 class="mb-3">ERZVERARBEITUNG</h2>
+                            <p>Nach der Extraktion wird das Gold enthaltende Erz zu unseren hochmodernen Verarbeitungsanlagen transportiert.</p><br>
+                            <p>In diesen Anlagen setzen wir die aktuellste Technologie und umweltbewusste Methoden ein, um Gold vom Erz zu trennen, wobei wir uns auf Abfallreduzierung und die Optimierung der Rückgewinnungsrate konzentrieren.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
@@ -99,9 +99,9 @@
                     <div class="col-12 col-lg-6 left ">
                         <div class="content">
                             <span class="cont-bg-rev"></span>
-                            <h2 class="mb-3">QUALITY ASSURANCE</h2>
-                            <p>Our primary emphasis is on maintaining high quality. Throughout the processing stage, we conduct thorough quality assurance examinations to verify the purity and genuineness of the extracted gold.</p><br>
-                            <p>Equipped with state-of-the-art testing tools, our laboratories meticulously analyze each batch to ensure that it aligns with the most stringent global benchmarks.</p>
+                            <h2 class="mb-3">QUALITÄTSSICHERUNG</h2>
+                            <p>Unser Hauptaugenmerk liegt auf der Aufrechterhaltung hoher Qualität. Während der Verarbeitungsphase führen wir gründliche Qualitätskontrolluntersuchungen durch, um die Reinheit und Echtheit des gewonnenen Goldes zu überprüfen.</p><br>
+                            <p>Ausgestattet mit hochmodernen Testgeräten analysieren unsere Labore sorgfältig jede Charge, um sicherzustellen, dass sie den strengsten globalen Standards entspricht.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
@@ -117,9 +117,9 @@
                     <div class="col-12 col-lg-6 left ">
                         <div class="content">
                             <span class="cont-bg"></span>
-                            <h2 class="mb-3">TRANSPARENT SUPPLY CHAIN</h2>
-                            <p>We uphold an ethical and transparent supply chain through active involvement with local communities and government entities, fostering equitable practices and advocating for social responsibility.</p><br>
-                            <p>Our esteemed refinery plays a pivotal role in guaranteeing that the gold we generate is sourced and processed in a responsible manner.</p>
+                            <h2 class="mb-3">TRANSPARENTE LIEFERKETTE</h2>
+                            <p>Wir setzen uns für eine ethische und transparente Lieferkette ein, indem wir aktiv mit lokalen Gemeinschaften und Regierungsbehörden zusammenarbeiten, gerechte Praktiken fördern und soziale Verantwortung unterstützen.</p><br>
+                            <p>Unsere angesehene Raffinerie spielt eine entscheidende Rolle dabei, sicherzustellen, dass das von uns erzeugte Gold verantwortungsvoll beschafft und verarbeitet wird.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
@@ -135,9 +135,9 @@
                     <div class="col-12 col-lg-6 left ">
                         <div class="content">
                             <span class="cont-bg-rev"></span>
-                            <h2 class="mb-3">INTERNATIONAL DISTRIBUTION</h2>
-                            <p>Situated strategically in Dubai, a prominent global trading center, our headquarters have facilitated the establishment of a resilient international distribution network.</p><br>
-                            <p>Our gold items are meticulously transported across the globe, adhering to strict adherence to international trade mandates and security protocols to ensure their safety.</p>
+                            <h2 class="mb-3">INTERNATIONALE VERTEILUNG</h2>
+                            <p>Strategisch in Dubai gelegen, einem prominenten globalen Handelszentrum, hat unser Hauptsitz die Einrichtung eines robusten internationalen Vertriebsnetzwerks erleichtert.</p><br>
+                            <p>Unsere Goldartikel werden sorgfältig weltweit transportiert und halten sich strikt an internationale Handelsvorschriften und Sicherheitsprotokolle, um deren Sicherheit zu gewährleisten.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
@@ -153,8 +153,8 @@
                     <div class="col-12 col-lg-6 left">
                         <div class="content">
                             <span class="cont-bg"></span>
-                            <h2 class="mb-3">CUSTOMER SATISFACTION</h2>
-                            <p>Our customers' contentment takes precedence. We take pride in providing superior gold products that precisely cater to the unique requirements of our diverse clientele, spanning from central banks to various industrial sectors.</p>
+                            <h2 class="mb-3">KUNDENZUFRIEDENHEIT</h2>
+                            <p>Die Zufriedenheit unserer Kunden hat oberste Priorität. Wir sind stolz darauf, erstklassige Goldprodukte anzubieten, die genau auf die einzigartigen Anforderungen unserer vielfältigen Kundschaft zugeschnitten sind, angefangen bei Zentralbanken bis hin zu verschiedenen Industriezweigen.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
@@ -170,9 +170,9 @@
                     <div class="col-12 col-lg-6 left">
                         <div class="content">
                             <span class="cont-bg-rev"></span>
-                            <h2 class="mb-3">ENVIRONMENTAL RESPONSIBILITY</h2>
-                            <p>Goldminesanger is dedicated to creating a beneficial influence on both communities and the environment.</p><br>
-                            <p>We allocate resources towards social development projects and environmental endeavors, ensuring that our commitment results in a sustainable and positive influence over time.</p>
+                            <h2 class="mb-3">UMWELTVERANTWORTUNG</h2>
+                            <p>Goldmine Sanger widmet sich der Schaffung einer positiven Wirkung sowohl auf Gemeinschaften als auch auf die Umwelt.</p><br>
+                            <p>Wir stellen Ressourcen für soziale Entwicklungsprojekte und Umweltinitiativen zur Verfügung, um sicherzustellen, dass unser Engagement im Laufe der Zeit nachhaltige und positive Auswirkungen hat.</p>
                         </div>
                     </div>
                     <div class="col-12 col-lg-6 right">
@@ -200,7 +200,7 @@
 
     <!-- scnd cta Section -->
 
-    <?php include 'inc/scnd-cta.php'; ?>
+    <?php include 'inc/scnd-cta-gr.php'; ?>
 
     <!-- End scnd cta Section -->
 
@@ -209,7 +209,7 @@
 
     <!-- Footer Section -->
 
-    <?php include 'inc/footer.php'; ?>
+    <?php include 'inc/footer-gr.php'; ?>
 
     <!-- End Footer Section -->
 
@@ -228,7 +228,7 @@
         // TRANSLATOR
 
         document.getElementById("myButton").addEventListener("click", function() {
-            window.location.href = "operation-gr.php";
+            window.location.href = "operation.php";
         });
     </script>
 

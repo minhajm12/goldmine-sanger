@@ -23,7 +23,7 @@
 
     <!-- Header Section -->
 
-    <?php include 'inc/header.php'; ?>
+    <?php include 'inc/header-gr.php'; ?>
 
     <!-- End Header Section -->
 
@@ -31,8 +31,8 @@
 
     <section id="contactsec-banner">
         <span></span>
-        <h1>CONTACT WITH US</h1>
-        <p>Begin your journey here to explore the gold and its gain.</p>
+        <h1>KONTAKTIEREN SIE UNS</h1>
+        <p>Starten Sie hier Ihre Reise, um das Gold und seine Gewinne zu erkunden.</p>
     </section>
 
 
@@ -40,7 +40,7 @@
     <section id="contactform">
         <div class="container">
             <div class="formsection" data-aos="fade" data-aos-duration="1000" data-aos-dealy="6000">
-                <h2>CONTACT<br class="cont-head-br"> GOLDMINE SANGER</h2>
+                <h2>KONTAKT<br class="cont-head-br"> GOLDMINE SANGER</h2>
                 <form action="">
                     <div class="row">
                         <div class="col-12 col-md-6 col-lg-6">
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="cnt-btn">
-                        <button type="submit" class="main-btn">Submit</button>
+                        <button type="submit" class="main-btn">Absenden</button>
                     </div>
                 </form>
             </div>
@@ -87,7 +87,7 @@
                     <div class="box col-12 col-lg-4 d-flex align-items-center justify-content-center  justify-content-lg-start align-item-md-start mb-md-4">
                         <div class="cont">
                             <i class="fa-solid fa-location-dot"></i>
-                            <p>Al Khabeesi Office 212 - 1, Abdulrahman Hassan Building, Dubai, UAE, P.O Box 215484</p>
+                            <p>Al Khabeesi Büro 212 - 1, Abdulrahman Hassan Gebäude, Dubai, UAE, Postfach 215484</p>
                         </div>
                     </div>
                     <div class="box col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center">
@@ -123,7 +123,7 @@
 
     <!-- Footer Section -->
 
-    <?php include 'inc/footer.php'; ?>
+    <?php include 'inc/footer-gr.php'; ?>
 
     <!-- End Footer Section -->
 
@@ -138,14 +138,14 @@
 
 
 
+
     <script>
         // TRANSLATOR
 
         document.getElementById("myButton").addEventListener("click", function() {
-            window.location.href = "contact-gr.php";
+            window.location.href = "contact.php";
         });
     </script>
-
 
 
 

@@ -46,7 +46,6 @@ document.body.addEventListener('click', event => {
     document.querySelector('#navbarSupportedContent').classList.remove('show');
     document.querySelector('#navbarSupportedContent').classList.add('collapse');
     document.querySelector('.navbar-toggler').classList.remove('collapsed');
-    document.querySelector('.navbar').classList.remove('navbar-radius');
 })
 
 
@@ -98,3 +97,10 @@ document.body.addEventListener('click', event => {
 
 
 
+
+
+    AOS.init();
+
+
+
+    

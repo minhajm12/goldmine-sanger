@@ -7,11 +7,11 @@
     <title>Career</title>
 
     <link rel="icon" href="assets/img/fav-icon.png" type="image/x-icon">
-
+    
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
-
+    
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
@@ -24,7 +24,7 @@
 
     <!-- Header Section -->
 
-    <?php include 'inc/header.php'; ?>
+    <?php include 'inc/header-gr.php'; ?>
 
     <!-- End Header Section -->
 
@@ -32,7 +32,7 @@
 
     <section id="career-banner">
         <span></span>
-        <h1>WORK WITH US</h1>
+        <h1>MIT UNS ARBEITEN</h1>
     </section>
 
 
@@ -49,8 +49,8 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 right" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
-                    <h1>CHOOSE A CAREER WITH US</h1>
-                    <p class="mt-3">At GoldMine, we're not just building a business; we're forging a future. We believe in the transformative power of teamwork, innovation, and dedication. As a part of our dynamic web development team, you'll have the opportunity to shape the digital landscape of the gold industry. From designing immersive user experiences to crafting efficient and scalable code, you'll play a pivotal role in creating a platform that connects seekers of the extraordinary with the treasures of the Earth. Join us in this exciting journey, where your skills and passion will shine as brightly as the precious metals we unearth.</p>
+                    <h1>WÄHLEN SIE EINE KARRIERE BEI UNS</h1>
+                    <p class="mt-3">Bei GoldMine bauen wir nicht nur ein Geschäft auf; wir schmieden eine Zukunft. Wir glauben an die transformative Kraft von Teamarbeit, Innovation und Hingabe. Als Teil unseres dynamischen Webentwicklungsteams haben Sie die Möglichkeit, die digitale Landschaft der Goldindustrie zu gestalten. Vom Entwurf immersiver Benutzererlebnisse bis zur Entwicklung effizienten und skalierbaren Codes spielen Sie eine entscheidende Rolle bei der Schaffung einer Plattform, die Suchende des Außergewöhnlichen mit den Schätzen der Erde verbindet. Begleiten Sie uns auf dieser spannenden Reise, bei der Ihre Fähigkeiten und Leidenschaft genauso hell strahlen werden wie die kostbaren Metalle, die wir bergen.</p>
                 </div>
             </div>
         </div>
@@ -66,28 +66,28 @@
                     <h2>SITE MANAGER</h2>
                     <div>
                         <p>No.of Openings: <span class="open">5</span></p>
-                        <p>Experience: <span class="open">2 Years</span></p>
-                        <p>Qualification: <span class="open">Any Degree</span></p>
+                        <p>Experience: <span class="open">2 Jahre</span></p>
+                        <p>Qualification: <span class="open">Beliebiger Abschluss</span></p>
                     </div>
-                    <a href="mailto:info@goldminesanger.com" class="blog-btn">Apply Now</a>
+                    <a href="mailto:info@goldminesanger.com" class="blog-btn">Jetzt bewerben</a>
                 </div>
                 <div class="opening-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200">
                     <h2>SUPERVISOR</h2>
                     <div>
                         <p>No.of Openings: <span class="open">5</span></p>
-                        <p>Experience: <span class="open">2 Years</span></p>
-                        <p>Qualification: <span class="open">Any Degree</span></p>
+                        <p>Experience: <span class="open">2 Jahre</span></p>
+                        <p>Qualification: <span class="open">Beliebiger Abschluss</span></p>
                     </div>
-                    <a href="mailto:info@goldminesanger.com" class="blog-btn">Apply Now</a>
+                    <a href="mailto:info@goldminesanger.com" class="blog-btn">Jetzt bewerben</a>
                 </div>
                 <div class="opening-item" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
                     <h2>ACCOUNTANT</h2>
                     <div>
                         <p>No.of Openings: <span class="open">5</span></p>
-                        <p>Experience: <span class="open">2 Years</span></p>
-                        <p>Qualification: <span class="open">Any Degree</span></p>
+                        <p>Experience: <span class="open">2 Jahre</span></p>
+                        <p>Qualification: <span class="open">Beliebiger Abschluss</span></p>
                     </div>
-                    <a href="mailto:info@goldminesanger.com" class="blog-btn">Apply Now</a>
+                    <a href="mailto:info@goldminesanger.com" class="blog-btn">Jetzt bewerben</a>
                 </div>
             </div>
         </div>
@@ -118,7 +118,7 @@
 
     <!-- scnd cta Section -->
 
-    <?php include 'inc/scnd-cta.php'; ?>
+    <?php include 'inc/scnd-cta-gr.php'; ?>
 
     <!-- End scnd cta Section -->
 
@@ -126,7 +126,7 @@
 
     <!-- Footer Section -->
 
-    <?php include 'inc/footer.php'; ?>
+    <?php include 'inc/footer-gr.php'; ?>
 
     <!-- End Footer Section -->
 
@@ -142,7 +142,7 @@
         // TRANSLATOR
 
         document.getElementById("myButton").addEventListener("click", function() {
-            window.location.href = "career-gr.php";
+            window.location.href = "career.php";
         });
     </script>
 

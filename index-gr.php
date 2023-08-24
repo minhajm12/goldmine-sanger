@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goldmine Sanger</title>
+
     <link rel="icon" href="assets/img/fav-icon.png" type="image/x-icon">
+
     <link rel="stylesheet" href="assets/css/style.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" /> -->
@@ -21,7 +25,7 @@
 
     <!-- Header Section -->
 
-    <?php include 'inc/header.php'; ?>
+    <?php include 'inc/header-gr.php'; ?>
 
     <!-- End Header Section -->
 
@@ -39,17 +43,17 @@
                     <source src="assets/img/video/bg-video-1.mp4" type="video/mp4">
                 </video>
                 <div class="container">
-                    <div class="banner-content" data-aos="fade-up" data-aos-delay="1000">
-                        <h1>Goldmine Sanger <br><span>Striving For Excellence</span></h1>
-                        <p>We take your needs to quality experience in its true value.</p>
-                        <a href="about.php" class="banner-btn">Read More</a>
+                    <div class="banner-content" data-aos="fade-right" data-aos-delay="1000">
+                        <h1>Goldmine Sanger <br><span>Streben Nach Exzellenz</span></h1>
+                        <p>Wir setzen Ihre Bedürfnisse in eine qualitativ hochwertige Erfahrung von echtem Wert um.</p>
+                        <a href="about-gr.php" class="banner-btn">MEHR LESEN</a>
                     </div>
                 </div>
             </div>
         </div>
 
         <div class="bottom-gold">
-            <div class="gold-updates" data-aos="zoom-in" data-aos-delay="1500">
+            <div class="gold-updates" data-aos="zoom-in" data-aos-delay="1200">
                 <div class="row">
                     <div class="col-4">
                         <div class="item">
@@ -97,11 +101,11 @@
                 </div>
                 <div class="col-12 col-lg-6 right" data-aos="fade-up" data-aos-duration="1000">
                     <div>
-                        <h1 class="main-head">About</h1>
+                        <h1 class="main-head">Über uns</h1>
                         <h2 class="scnd-head">GOLDMINE SANGER</h2>
                     </div>
-                    <p class="para">Goldmine Sanger is a leading gold mining company in Dubai. With decades of experience and a dedicated team of experts, we pride ourselves on being able to offer high-quality gold to our customers worldwide. Our modern technologies and sustainable mining practices enable us to extract gold in an efficient and responsible manner. At Goldminsesanger we strive for excellence and strict quality standards to meet the demands of our customers.</p>
-                    <a href="about.php" class="main-btn"> Read More</a>
+                    <p class="para">Goldmine Sanger ist ein führendes Goldminenunternehmen in Dubai. Mit jahrzehntelanger Erfahrung und einem engagierten Team von Experten sind wir stolz darauf, hochwertiges Gold an unsere Kunden weltweit anbieten zu können. Unsere modernen Technologien und nachhaltigen Bergbaupraktiken ermöglichen es uns, Gold auf effiziente und verantwortungsbewusste Weise zu fördern. Bei Goldmine Sanger streben wir nach Exzellenz und strikten Qualitätsstandards, um den Anforderungen unserer Kunden gerecht zu werden.</p>
+                    <a href="about-gr.php" class="main-btn"> MEHR LESEN</a>
                 </div>
             </div>
         </div>
@@ -118,9 +122,9 @@
             <div class="row">
                 <div class="col-12 col-lg-6 left"></div>
                 <div class="col-12 col-lg-6 right" data-aos="fade-left" data-aos-duration="1000">
-                    <h1>EXTRACTING STONES<br>WITH LATEST TECHNIQUES</h1>
-                    <p class="para">A clear strategy focused on sustained value creation.</p>
-                    <a href="contact.php" class="cta-btn">CONTACT US</a>
+                    <h1>STEINEXTRAKTION<br>MIT DEN NEUESTEN TECHNIKEN</h1>
+                    <p class="para">Eine klare Strategie mit Fokus auf nachhaltiger Wertsteigerung.</p>
+                    <a href="contact-gr.php" class="cta-btn">KONTAKT</a>
                 </div>
             </div>
         </div>
@@ -180,7 +184,7 @@
                 </a>
             </div>
             <div class="projct-btn">
-                <a href="project.php" class="main-btn">View More</a>
+                <a href="project-gr.php" class="main-btn">View More</a>
             </div>
 
 
@@ -198,8 +202,8 @@
     <section id="investorsection">
         <div class="container">
             <div class="investors" data-aos="fade-up" data-aos-duration="1000">
-                <h1>INVEST WITH US</h1>
-                <p>Announce your esteemed alliance with us by investing in gold.</p>
+                <h1>MIT UNS INVESTIEREN</h1>
+                <p>Kündigen Sie Ihre geschätzte Allianz mit uns an, indem Sie in Gold investieren.</p>
 
 
                 <!-- <div class="top owl-carousel">
@@ -240,7 +244,7 @@
                 </div> -->
 
                 <div class="clnt-btn">
-                    <a href="contact.php" class="banner-btn">Invest Now</a>
+                    <a href="contact-gr.php" class="banner-btn">Jetzt investieren</a>
                 </div>
             </div>
         </div>
@@ -270,7 +274,7 @@
                     <div class="blog-contents">
                         <h2>Guided by Local Stakeholders</h2>
                         <p>Learn about opportunities to join our dynamic, high performance culture, and hear what employees say about working at Kinross.</p>
-                        <a href="" class="blog-btn">Read More</a>
+                        <a href="" class="blog-btn">MEHR LESEN</a>
                     </div>
                 </div>
                 <div class="blog-item">
@@ -281,7 +285,7 @@
                     <div class="blog-contents">
                         <h2>Guided by Local Stakeholders</h2>
                         <p>Learn about opportunities to join our dynamic, high performance culture, and hear what employees say about working at Kinross.</p>
-                        <a href="" class="blog-btn">Read More</a>
+                        <a href="" class="blog-btn">MEHR LESEN</a>
                     </div>
                 </div>
                 <div class="blog-item">
@@ -292,12 +296,12 @@
                     <div class="blog-contents">
                         <h2>Guided by Local Stakeholders</h2>
                         <p>Learn about opportunities to join our dynamic, high performance culture, and hear what employees say about working at Kinross.</p>
-                        <a href="" class="blog-btn">Read More</a>
+                        <a href="" class="blog-btn">MEHR LESEN</a>
                     </div>
                 </div>
             </div>
             <div class="blog-button mt-4 mt-lg-5">
-                <a href="blog.php" class="main-btn">VIEW ALL</a>
+                <a href="blog-gr.php" class="main-btn">VIEW ALL</a>
             </div>
 
 
@@ -319,7 +323,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6 left" data-aos="fade-right" data-aos-duration="1000">
                     <form>
-                        <h2>INVEST IN THE TEAM<br>CONNECT WITH US</h2>
+                        <h2>IN DAS TEAM INVESTIEREN<br>MIT UNS IN VERBINDUNG TRETEN</h2>
                         <div class="mb-4 mt-4">
                             <input type="text" class="form-control" placeholder="Your Name">
                         </div>
@@ -329,15 +333,15 @@
                         <div class="mb-4">
                             <textarea name="" id="" cols="" rows="5" placeholder="Your Comment"></textarea>
                         </div>
-                        <button type="submit" class="main-btn">Submit</button>
+                        <button type="submit" class="main-btn">Absenden</button>
                     </form>
                 </div>
                 <div class="col-12 col-lg-6 right">
-                    <h2>GET IN TOUCH</h2>
-                    <p>discover the whole new experience of being a gold investor and promoting a better future for all local communities and the environment.</p>
+                    <h2>IN KONTAKT TRETEN</h2>
+                    <p>Entdecken Sie das völlig neue Erlebnis, ein Goldinvestor zu sein, und fördern Sie eine bessere Zukunft für alle lokalen Gemeinschaften und die Umwelt.</p>
                     <div class="align-items-start">
                         <i class="fa-solid fa-location-dot"></i>
-                        <p class="location-add">Al Khabeesi Office 212 - 1, Abdulrahman Hassan Building, Dubai, UAE, P.O Box 215484</p>
+                        <p class="location-add">Al Khabeesi Büro 212 - 1, Abdulrahman Hassan Gebäude, Dubai, UAE, Postfach 215484</p>
                     </div>
 
                     <div>
@@ -365,11 +369,11 @@
             <div class="row">
                 <div class="col-12 col-lg-6 left" data-aos="fade-right" data-aos-duration="1000">
                     <div>
-                        <h1 class="main-head">Explore Career</h1>
-                        <h2 class="scnd-head">OPPORTUNITIES</h2>
+                        <h1 class="main-head">KARRIERE ERKUNDEN</h1>
+                        <h2 class="scnd-head">MÖGLICHKEITEN</h2>
                     </div>
-                    <p>Learn about opportunities to join our dynamic, high-performance culture, and hear what employees say about working at Kinross.</p>
-                    <a href="career.php" class="main-btn"> Read More</a>
+                    <p>Erfahren Sie mehr über Möglichkeiten, Teil unserer dynamischen und leistungsstarken Unternehmenskultur zu werden, und hören Sie, was Mitarbeiter über die Arbeit bei Kinross sagen.</p>
+                    <a href="career-gr.php" class="main-btn"> MEHR LESEN</a>
                 </div>
                 <div class="col-12 col-lg-6 right" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                     <div class="image-div">
@@ -386,7 +390,7 @@
 
     <!-- Footer Section -->
 
-    <?php include 'inc/footer.php'; ?>
+    <?php include 'inc/footer-gr.php'; ?>
 
     <!-- End Footer Section -->
 
@@ -406,9 +410,10 @@
 
         document.getElementById("myButton").addEventListener("click", function() {
             // Replace 'https://www.example.com' with the URL you want to navigate to
-            window.location.href = "index-gr.php";
+            window.location.href = "index.php";
         });
     </script>
+
 
 
     <!-- Jquery -->
@@ -426,10 +431,6 @@
 
     <!-- Owl Carousel -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
-
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
 
     <script src="assets/js/main.js"></script>
 

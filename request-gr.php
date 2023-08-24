@@ -22,7 +22,7 @@
 
     <!-- Header Section -->
 
-    <?php include 'inc/header.php'; ?>
+    <?php include 'inc/header-gr.php'; ?>
 
     <!-- End Header Section -->
 
@@ -30,8 +30,8 @@
 
     <section id="requestbanner">
         <span></span>
-        <h1 data-aos="flip-up" data-aos-duration="1000" data-aos-delay="4000">OUR PRODUCTS</h1>
-        <p>Interested in our gold offerings? Reach out to us to learn more and request information.</p>
+        <h1 data-aos="flip-up" data-aos-duration="1000" data-aos-delay="4000">UNSERE PRODUKTE</h1>
+        <p>Interessiert an unseren Goldangeboten? Nehmen Sie Kontakt mit uns auf, um mehr zu erfahren und Informationen anzufordern.</p>
     </section>
 
 
@@ -48,7 +48,7 @@
                         <img src="assets/img/gold/gold-500g.png" alt="">
                     </div>
                     <div class="details">
-                        <h4>500g Gold Bar</h4>
+                        <h4>500g Goldbarren</h4>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 products" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1200">
@@ -56,7 +56,7 @@
                         <img src="assets/img/gold/gold-1000g.png" alt="">
                     </div>
                     <div class="details">
-                        <h4>1000g Gold Bar</h4>
+                        <h4>1000g Goldbarren</h4>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 products" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1400">
@@ -64,7 +64,7 @@
                         <img src="assets/img/gold/oz-bars.png" alt="">
                     </div>
                     <div class="details">
-                        <h4>12.44kg Gold Bar</h4>
+                        <h4>12.44kg Goldbarren</h4>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
     <section id="requestfromsection">
         <div class="container">
             <div class="req-form" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="">
-                <h2>REQUEST AND<br>CONNECT WITH US</h2>
+                <h2>ANFRAGE UND<br>MIT UNS IN VERBINDUNG TRETEN</h2>
                 <form action="">
                     <div class="row">
                         <div class="col-12 col-lg-6 mt-4">
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                     <div class="sub-btn">
-                        <button type="submit" class="main-btn">Submit</button>
+                        <button type="submit" class="main-btn">Absenden</button>
                     </div>
                 </form>
             </div>
@@ -121,7 +121,7 @@
 
     <!-- scnd cta Section -->
 
-    <?php include 'inc/scnd-cta.php'; ?>
+    <?php include 'inc/scnd-cta-gr.php'; ?>
 
     <!-- End scnd cta Section -->
 
@@ -129,7 +129,7 @@
 
     <!-- Footer Section -->
 
-    <?php include 'inc/footer.php'; ?>
+    <?php include 'inc/footer-gr.php'; ?>
 
     <!-- End Footer Section -->
 
@@ -174,7 +174,7 @@
         // TRANSLATOR
 
         document.getElementById("myButton").addEventListener("click", function() {
-            window.location.href = "request-gr.php";
+            window.location.href = "request.php";
         });
     </script>
 
