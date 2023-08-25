@@ -337,19 +337,19 @@
                     </form>
                 </div>
                 <div class="col-12 col-lg-6 right">
-                    <h2>IN KONTAKT TRETEN</h2>
-                    <p>Entdecken Sie das völlig neue Erlebnis, ein Goldinvestor zu sein, und fördern Sie eine bessere Zukunft für alle lokalen Gemeinschaften und die Umwelt.</p>
-                    <div class="align-items-start">
+                    <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="">IN KONTAKT TRETEN</h2>
+                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">Entdecken Sie das völlig neue Erlebnis, ein Goldinvestor zu sein, und fördern Sie eine bessere Zukunft für alle lokalen Gemeinschaften und die Umwelt.</p>
+                    <div class="align-items-start" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                         <i class="fa-solid fa-location-dot"></i>
                         <p class="location-add">Al Khabeesi Büro 212 - 1, Abdulrahman Hassan Gebäude, Dubai, UAE, Postfach 215484</p>
                     </div>
 
-                    <div>
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                         <i class="fa-solid fa-envelope"></i>
                         <a href="mailto:info@goldminesanger.com" class="mail">info@goldminesanger.com</a>
                     </div>
 
-                    <div class="align-item-center" style="align-items:center;">
+                    <div class="align-item-center" style="align-items:center;" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                         <i class="fa-solid fa-phone"></i>
                         <a class="cntct-nmbr" href="tel:+971 50 504 3988">+971 50 504 3988</a>
                     </div>
@@ -409,7 +409,6 @@
         // TRANSLATOR
 
         document.getElementById("myButton").addEventListener("click", function() {
-            // Replace 'https://www.example.com' with the URL you want to navigate to
             window.location.href = "index.php";
         });
     </script>

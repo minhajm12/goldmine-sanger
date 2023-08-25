@@ -333,19 +333,19 @@
                     </form>
                 </div>
                 <div class="col-12 col-lg-6 right">
-                    <h2>GET IN TOUCH</h2>
-                    <p>discover the whole new experience of being a gold investor and promoting a better future for all local communities and the environment.</p>
-                    <div class="align-items-start">
+                    <h2 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="">GET IN TOUCH</h2>
+                    <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="100">discover the whole new experience of being a gold investor and promoting a better future for all local communities and the environment.</p>
+                    <div class="align-items-start" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
                         <i class="fa-solid fa-location-dot"></i>
                         <p class="location-add">Al Khabeesi Office 212 - 1, Abdulrahman Hassan Building, Dubai, UAE, P.O Box 215484</p>
                     </div>
 
-                    <div>
+                    <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                         <i class="fa-solid fa-envelope"></i>
                         <a href="mailto:info@goldminesanger.com" class="mail">info@goldminesanger.com</a>
                     </div>
 
-                    <div class="align-item-center" style="align-items:center;">
+                    <div class="align-item-center" style="align-items:center;" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
                         <i class="fa-solid fa-phone"></i>
                         <a class="cntct-nmbr" href="tel:+971 50 504 3988">+971 50 504 3988</a>
                     </div>
@@ -405,7 +405,6 @@
         // TRANSLATOR
 
         document.getElementById("myButton").addEventListener("click", function() {
-            // Replace 'https://www.example.com' with the URL you want to navigate to
             window.location.href = "index-gr.php";
         });
     </script>

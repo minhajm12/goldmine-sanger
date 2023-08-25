@@ -2672,8 +2672,9 @@ section
 
 
 #contactform {
-    /* padding:0 0 40px 0; */
-    transform: translateY(-120px);
+    padding:0 0 60px 0;
+    /* transform: translateY(-120px); */
+    margin-top:-120px;
 }
 
 #contactform .formsection {
@@ -2734,7 +2735,7 @@ section
 
 
 #contact-details {
-    padding: 50px 0 50px 0;
+    padding: 50px 0 70px 0;
 }
 
 #contact-details .details {
@@ -2865,7 +2866,7 @@ section
     }
 
     #contactform .container {
-        padding: 0 20px;
+        padding: 20px 20px;
     }
 
     #contactform .formsection {
@@ -2891,7 +2892,7 @@ section
     }
 
     #contact-details .container {
-        padding: 0 20px;
+        padding: 40px 20px;
     }
 
     #contact-details .details p {
